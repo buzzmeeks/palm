@@ -1,7 +1,7 @@
 <template>
   <v-layout column justify-center align-center>
     <v-flex xs12 sm8 md6>
-      <h1>Règlement</h1>
+      <h1>Règlement de PaLM</h1>
       <h2>Préambule</h2>
       <p>
         Durant 2019, nous organisons au travers de l’association Dessine moi un Gobelin une ligue en région Parisienne : La Paris League of Modern ou PaLM. Cette ligue à pour but d’assurer l’intérêt et l’émulation du jeu organisé en boutique après la fin du système des PPTQs.
