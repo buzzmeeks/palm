@@ -16,13 +16,14 @@
       <ul>
         <li>Majestik</li>
         <li>Magic Bazar</li>
+        <li>Magic Corporation</li>
         <li>Le Repaire du Dragon</li>
         <li>Troll 2 Jeux</li>
         <li>Uchronies</li>
         <li>La Waaagh Taverne</li>
       </ul>
       <p>
-        Jouer en boutique -sur les tournois réguliers, ou durant les PaLM Qualifiers organisés-
+        Jouer en boutique ,sur les tournois réguliers, ou durant les PaLM Qualifiers organisés-
         vous permettra de vous disputer des qualifications au travers de deux classements :
         Un classement local, propre à chaque boutique ; et un classement général.
         Un nombre de point sera attribué à chaque joueur en fonction du nombre de joueurs ayant
@@ -30,14 +31,14 @@
         Un bonus sera appliqué aux PaLM Qualifiers.
       </p>
       <p>
-        Seule les 12 meilleures performances au cours de l’année seront prises en compte pour chaque
+        Seul les 12 meilleures performances au cours de l’année seront prises en compte pour chaque
         classement, local et général. Une nouvelle performance supérieure à une ancienne viendra la
         remplacer dans le compte final des points.
-        À l’issue de la saison, un minimum de 32 joueurs seront qualifiés pour la finale:
+        À l’issue de la saison, un minimum de 35 joueurs seront qualifiés pour la finale:
       </p>
       <ul>
         <li>
-          <strong>18 joueurs</strong> (3 par boutiques), qualifiés directement lors des PaLM Qualifiers organisés par les boutiques partenaires
+          <strong>21 joueurs</strong> (3 par boutiques), qualifiés directement lors des PaLM Qualifiers organisés par les boutiques partenaires
         </li>
         <li>
           <strong>6 joueurs</strong> (1 par boutique), les mieux classés dans chaque boutique au classement local
@@ -48,7 +49,7 @@
       </ul>
       <p>
         La finale est assurée avec une dotation minimale de 1000 euros.
-        Chaque joueurs qualifié supplémentaire (en plus des 32 initiaux) verra une augmentation de
+        Chaque joueur qualifié supplémentaire (en plus des 35 initiaux) verra une augmentation de
         la dotation minimale de la finale en conséquence
         Si un joueur est classé selon plusieurs critères, il recevra un bye lors de la finale.
         De plus, son invitation sera reportée au suivant dans le classement.

@@ -46,6 +46,10 @@ export default {
         {
           title: 'FAQ',
           to: '/faq'
+        },
+        {
+          title: 'Contact',
+          to: '/contact'
         }
       ]
     }
