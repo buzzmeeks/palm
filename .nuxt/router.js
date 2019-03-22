@@ -7,6 +7,7 @@ const _ae12dd60 = () => interopDefault(import('../pages/faq.vue' /* webpackChunk
 const _0adcfc19 = () => interopDefault(import('../pages/points.vue' /* webpackChunkName: "pages/points" */))
 const _209e9da0 = () => interopDefault(import('../pages/results.vue' /* webpackChunkName: "pages/results" */))
 const _f0315342 = () => interopDefault(import('../pages/settlement.vue' /* webpackChunkName: "pages/settlement" */))
+const _29327ba4 = () => interopDefault(import('../pages/standings/index.vue' /* webpackChunkName: "pages/standings/index" */))
 const _120c5ee8 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 Vue.use(Router)
@@ -86,6 +87,10 @@ export function createRouter() {
       path: "/settlement",
       component: _f0315342,
       name: "settlement"
+    }, {
+      path: "/standings",
+      component: _29327ba4,
+      name: "standings"
     }, {
       path: "/",
       component: _120c5ee8,

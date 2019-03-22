@@ -14,13 +14,7 @@
         Vous aurez l’occasion de participer à cette ligue de de manière régulière dans les boutiques partenaires :
       </p>
       <ul>
-        <li>Majestik</li>
-        <li>Magic Bazar</li>
-        <li>Magic Corporation</li>
-        <li>Le Repaire du Dragon</li>
-        <li>Troll 2 Jeux</li>
-        <li>Uchronies</li>
-        <li>La Waaagh Taverne</li>
+        <li v-for="(shop, index) in shops" :key="index">{{shop.name}}</li>
       </ul>
       <p>
         Jouer en boutique ,sur les tournois réguliers, ou durant les PaLM Qualifiers organisés-
@@ -34,14 +28,14 @@
         Seul les 12 meilleures performances au cours de l’année seront prises en compte pour chaque
         classement, local et général. Une nouvelle performance supérieure à une ancienne viendra la
         remplacer dans le compte final des points.
-        À l’issue de la saison, un minimum de 35 joueurs seront qualifiés pour la finale:
+        À l’issue de la saison, un minimum de {{nbQualified}} joueurs seront qualifiés pour la finale:
       </p>
       <ul>
         <li>
-          <strong>21 joueurs</strong> (3 par boutiques), qualifiés directement lors des PaLM Qualifiers organisés par les boutiques partenaires
+          <strong>{{shops.length * 3}} joueurs</strong> (3 par boutiques), qualifiés directement lors des PaLM Qualifiers organisés par les boutiques partenaires
         </li>
         <li>
-          <strong>6 joueurs</strong> (1 par boutique), les mieux classés dans chaque boutique au classement local
+          <strong>{{shops.length}} joueurs</strong> (1 par boutique), les mieux classés dans chaque boutique au classement local
         </li>
         <li>
           <strong>8 joueurs</strong>, les mieux classés au classement général
@@ -49,7 +43,7 @@
       </ul>
       <p>
         La finale est assurée avec une dotation minimale de 1000 euros.
-        Chaque joueur qualifié supplémentaire (en plus des 35 initiaux) verra une augmentation de
+        Chaque joueur qualifié supplémentaire (en plus des {{nbQualified}} initiaux) verra une augmentation de
         la dotation minimale de la finale en conséquence
         Si un joueur est classé selon plusieurs critères, il recevra un bye lors de la finale.
         De plus, son invitation sera reportée au suivant dans le classement.
@@ -58,3 +52,17 @@
     </v-flex>
   </v-layout>
 </template>
+
+
+<script>
+export default {
+  computed: {
+    shops() {
+      return this.$store.state.shops
+    },
+    nbQualified() {
+      return this.$store.state.nbQualified
+    }
+  }
+}
+</script>

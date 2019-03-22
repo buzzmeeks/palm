@@ -36,6 +36,10 @@ export default {
           to: '/'
         },
         {
+          title: 'Classement',
+          to: '/standings'
+        },
+        {
           title: 'Réglement',
           to: '/settlement'
         },

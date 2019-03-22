@@ -10,13 +10,7 @@
       <h2>Dispositions générales</h2>
       <p>Les boutiques retenues comme partenaires sont :</p>
       <ul>
-        <li>Majestik</li>
-        <li>Magic Bazar</li>
-        <li>Magic Corporation</li>
-        <li>Le Repaire du Dragon</li>
-        <li>Troll 2 Jeux</li>
-        <li>Uchronies</li>
-        <li>La Waaagh Taverne</li>
+        <li v-for="(shop, index) in shops" :key="index">{{shop.name}}</li>
       </ul>
       <h2>Système de la compétition</h2>
       <p>
@@ -24,10 +18,10 @@
         Les détails de l’attribution des points se trouve
         <nuxt-link to="/points">ici</nuxt-link>.
       </p>
-      <p>À l’issue de la saison, un minimum de 35 joueurs seront qualifiés pour la finale:</p>
+      <p>À l’issue de la saison, un minimum de {{nbQualified}} joueurs seront qualifiés pour la finale:</p>
       <ul>
-        <li>21 joueurs (3 par boutiques), qualifiés directement lors des PaLM Qualifiers organisés par les boutiques partenaires</li>
-        <li>6 joueurs (1 par boutique), les mieux classés dans chaque boutique</li>
+        <li>{{shops.length * 3}} joueurs (3 par boutiques), qualifiés directement lors des PaLM Qualifiers organisés par les boutiques partenaires</li>
+        <li>{{shops.length}} joueurs (1 par boutique), les mieux classés dans chaque boutique</li>
         <li>8 joueurs, les mieux classés au classement général</li>
       </ul>
       <p>Si un joueur est classé selon plusieurs critères, il recevra un bye lors de la finale. De plus, son invitation sera reportée au suivant dans le classement. Notez qu’un joueur ne peut recevoir un bye que s’il se qualifie sur plusieurs critères avant le dit report d’invitation.</p>
@@ -56,3 +50,16 @@
     </v-flex>
   </v-layout>
 </template>
+
+<script>
+export default {
+  computed: {
+    shops() {
+      return this.$store.state.shops
+    },
+    nbQualified() {
+      return this.$store.state.nbQualified
+    }
+  }
+}
+</script>
