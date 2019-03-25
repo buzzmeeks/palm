@@ -1,5 +1,5 @@
 <template>
-  <v-layout column justify-center align-center>
+  <v-layout column justify-center align-center class="homepage">
     <v-flex xs12 sm8 md6>
       <h1>Bienvenue sur PaLM</h1>
       <p>
@@ -66,3 +66,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.homepage ul {
+  margin-bottom: 1em;
+}
+</style>

@@ -6,7 +6,6 @@
         La Finale de la Paris League of Modern verra s’affronter les {{nbQualified}} meilleurs joueurs de la
         ligue dans un tournoi avec une dotation minimale de 1000 euros.
         <br>Elle aura lieu en décembre 2019, plus d’informations sur le lieu et la date très bientôt.
-        <br>Afin de savoir si vous êtes qualifiés, rendez vous ici
       </p>
     </v-flex>
   </v-layout>

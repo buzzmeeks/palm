@@ -48,8 +48,8 @@ export default {
           to: '/points'
         },
         {
-          title: 'FAQ',
-          to: '/faq'
+          title: 'Finale',
+          to: '/finale'
         },
         {
           title: 'Contact',

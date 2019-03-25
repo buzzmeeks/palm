@@ -1,8 +1,10 @@
 export const state = () => ({
   shops: [
-    { name: 'Majestik' },
-    { name: 'Magic Bazar' },
     { name: 'Le Repaire du Dragon' },
+    { name: 'Magic Bazar' },
+    { name: 'MagicCorporation' },
+    { name: 'Majestik' },
+    { name: 'Parkage' },
     { name: 'Troll 2 Jeux' },
     { name: 'Uchronies' },
     { name: 'La Waaagh Taverne' }

@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 
 const _1118745a = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
-const _ae12dd60 = () => interopDefault(import('../pages/faq.vue' /* webpackChunkName: "pages/faq" */))
+const _4facc6e5 = () => interopDefault(import('../pages/finale.vue' /* webpackChunkName: "pages/finale" */))
 const _0adcfc19 = () => interopDefault(import('../pages/points.vue' /* webpackChunkName: "pages/points" */))
 const _209e9da0 = () => interopDefault(import('../pages/results.vue' /* webpackChunkName: "pages/results" */))
 const _f0315342 = () => interopDefault(import('../pages/settlement.vue' /* webpackChunkName: "pages/settlement" */))
@@ -72,9 +72,9 @@ export function createRouter() {
       component: _1118745a,
       name: "contact"
     }, {
-      path: "/faq",
-      component: _ae12dd60,
-      name: "faq"
+      path: "/finale",
+      component: _4facc6e5,
+      name: "finale"
     }, {
       path: "/points",
       component: _0adcfc19,

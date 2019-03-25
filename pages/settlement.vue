@@ -1,5 +1,5 @@
 <template>
-  <v-layout column justify-center align-center>
+  <v-layout column justify-center align-center class="settlementpage">
     <v-flex xs12 sm8 md6>
       <h1>Règlement de PaLM</h1>
       <h2>Préambule</h2>
@@ -26,7 +26,8 @@
       </ul>
       <p>Si un joueur est classé selon plusieurs critères, il recevra un bye lors de la finale. De plus, son invitation sera reportée au suivant dans le classement. Notez qu’un joueur ne peut recevoir un bye que s’il se qualifie sur plusieurs critères avant le dit report d’invitation.</p>
       <h2>Programmation des tournois</h2>
-      <p>Chacune des boutiques partenaire pourra homologuer PaLM un tournoi par semaine plus un tournoi par mois.
+      <p>
+        Chacune des boutiques partenaire pourra homologuer PaLM un tournoi par semaine plus un tournoi par mois.
         <br>Chacune des boutiques partenaire organisera trois PaLM Qualifiers au cours de la saison 2019.
       </p>
       <p>Si une boutique tierce souhaite participer à la PaLM elle se doit :</p>
@@ -63,3 +64,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.settlementpage ul {
+  margin-bottom: 1em;
+}
+</style>

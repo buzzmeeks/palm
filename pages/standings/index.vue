@@ -26,7 +26,7 @@ export default {
 }
 </script>
 
-<style class="scss">
+<style>
 .points {
   width: 50px;
   height: 50px;
