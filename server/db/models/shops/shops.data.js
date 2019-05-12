@@ -62,4 +62,13 @@ module.exports = [
     phone: '0982241423',
     link: 'http://www.waaagh-taverne.fr',
   },
+  {
+    id: 'par',
+    name: 'Parkage',
+    address: '25 Rue Geoffroy-Saint-Hilaire',
+    zipcode: '75005',
+    city: 'Paris',
+    phone: '0155432855',
+    link: 'https://www.parkage.com',
+  },
 ]

@@ -4,7 +4,7 @@ module.exports = {
     t.string('id', 20).primary()
     t.string('shop', 3)
     // -- weekly (W), qualifier (Q), finale (F)
-    t.enu('type', ['W', 'Q', 'F'], {
+    t.enu('type', ['w', 'q', 'f'], {
       useNative: true,
       enumName: 'tournament_type',
     }).notNullable()
