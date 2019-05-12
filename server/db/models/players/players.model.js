@@ -4,6 +4,7 @@ const NB_BEST_RESULTS = 12
 
 function getRankings(lid) {
   return q('players')
+    .whereNotNull('leagues')
     .then(users =>
       users.map(u => {
         if (u.leagues) {
@@ -18,9 +19,8 @@ function getRankings(lid) {
             })
           orderedResults.splice(NB_BEST_RESULTS)
           u.points = orderedResults.reduce((a, i) => a + i.ppalm, 0)
-          return u
         }
-        return false
+        return u
       }),
     )
     .then(rank => {
