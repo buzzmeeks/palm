@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<eventupload>
+<event sanctionnumber="19-03-12993283" eventguid="6198539f-38d2-445a-b383-4d0ab51cfb54" eventtypecode="FM" orgname="Parkage" coordinator="9113897337" startdate="2019-03-15" postevententry="false" enddate="0001-01-01T00:00:00" format="MODERN" eliminationType="3" iscasualreportonly="False" title="Friday Night Magic Tournament Ravnica Allegiance" isstarted="True" status="8" batchid="" isplayoff="False" manualmatchround="0" notes="19-03-12993283" numberofrounds="3" playoffstartround="0">
+  <participation>
+    <person id="3208133811" first="Julien" last="Boulanger" middle="" country="US" />
+    <person id="1206262199" first="Louis" last="Gignoux" middle="" country="US" />
+    <person id="8113333781" first="Maxime" last="Gral" middle="" country="FR" />
+    <person id="6314849468" first="Guillaume" last="Houdayer" middle="" country="FR" />
+    <person id="4112602664" first="Aurelien" last="Lejeau" middle="A" country="FR" />
+    <person id="6107129991" first="Clément" last="Jouve" middle="" country="US" />
+    <person id="4203770783" first="Loic" last="Quentin" middle="" country="FR" />
+    <person id="5102575010" first="Baptiste" last="Cunin" middle="" country="US" />
+    <person id="5313588024" first="Christophe" last="Deboffle" middle="" country="FR" />
+    <person id="2115093279" first="Yann" last="Brecy" middle="" country="FR" />
+    <person id="6318403195" first="Pierre" last="Tardy" middle="" country="FR" />
+    <person id="3208103324" first="Julien" last="Bihet" middle="" country="FR" />
+    <team id="14820" name="Tardy, Pierre" status="2" eliminationround="0">
+      <member position="A" person="6318403195" />
+    </team>
+    <team id="14821" name="Deboffle, Christophe" status="2" eliminationround="0">
+      <member position="A" person="5313588024" />
+    </team>
+    <team id="14822" name="Houdayer, Guillaume" status="2" eliminationround="0">
+      <member position="A" person="6314849468" />
+    </team>
+    <team id="14823" name="Gral, Maxime" status="2" eliminationround="0">
+      <member position="A" person="8113333781" />
+    </team>
+    <team id="14824" name="Cunin, Baptiste" status="2" eliminationround="0">
+      <member position="A" person="5102575010" />
+    </team>
+    <team id="14825" name="Jouve, Clément" status="2" eliminationround="0">
+      <member position="A" person="6107129991" />
+    </team>
+    <team id="14826" name="Boulanger, Julien" status="2" eliminationround="0">
+      <member position="A" person="3208133811" />
+    </team>
+    <team id="14827" name="Gignoux, Louis" status="2" eliminationround="0">
+      <member position="A" person="1206262199" />
+    </team>
+    <team id="14828" name="Lejeau, Aurelien" status="2" eliminationround="0">
+      <member position="A" person="4112602664" />
+    </team>
+    <team id="14829" name="Quentin, Loic" status="2" eliminationround="0">
+      <member position="A" person="4203770783" />
+    </team>
+    <team id="14832" name="Brecy, Yann" status="2" eliminationround="0">
+      <member position="A" person="2115093279" />
+    </team>
+    <team id="14833" name="Bihet, Julien" status="2" eliminationround="0">
+      <member position="A" person="3208103324" />
+    </team>
+    <role cd="PL" type="PA">
+      <ref person="6107129991" seq="1" />
+      <ref person="3208133811" seq="2" />
+      <ref person="2115093279" seq="3" />
+      <ref person="3208103324" seq="4" />
+      <ref person="6318403195" seq="5" />
+      <ref person="5102575010" seq="6" />
+      <ref person="4112602664" seq="7" />
+      <ref person="5313588024" seq="8" />
+      <ref person="1206262199" seq="9" />
+      <ref person="6314849468" seq="10" />
+      <ref person="8113333781" seq="11" />
+      <ref person="4203770783" seq="12" />
+    </role>
+    <role cd="PL" type="DQ" />
+    <role cd="JG" type="PA" />
+  </participation>
+  <matches>
+    <round number="1" PlayFormat="MODERN" date="2019-03-15T19:07:19" teamformat="false">
+      <match person="3208133811" opponent="1206262199" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="8113333781" opponent="6314849468" outcome="2" win="1" loss="1" draw="0" winbydrop="False" />
+      <match person="6107129991" opponent="4112602664" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+      <match person="5102575010" opponent="4203770783" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="2115093279" opponent="5313588024" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="3208103324" opponent="6318403195" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+    </round>
+    <round number="2" PlayFormat="MODERN" date="2019-03-15T20:21:34" teamformat="false">
+      <match person="6107129991" opponent="2115093279" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="3208133811" opponent="3208103324" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="5102575010" opponent="8113333781" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="6314849468" opponent="4112602664" outcome="2" win="1" loss="1" draw="0" winbydrop="False" />
+      <match person="6318403195" opponent="1206262199" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="5313588024" opponent="4203770783" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+    </round>
+    <round number="3" PlayFormat="MODERN" date="2019-03-15T21:24:12" teamformat="false">
+      <match person="6107129991" opponent="3208133811" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+      <match person="2115093279" opponent="5102575010" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+      <match person="3208103324" opponent="5313588024" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+      <match person="6318403195" opponent="6314849468" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="4112602664" opponent="8113333781" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="1206262199" opponent="4203770783" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+    </round>
+  </matches>
+  <seats />
+  <pods>
+    <podround>
+      <round number="1" />
+      <round number="2" />
+      <round number="3" />
+    </podround>
+  </pods>
+  <log>
+    <entry date="2018-11-02T18:33:28" operation="CRE">4.5.5.655</entry>
+    <entry date="2019-03-15T19:07:19" operation="ROUND">Round Started 1</entry>
+    <entry date="2019-03-15T19:07:21" operation="MATCH">Matches created using match algorithm for round 1.</entry>
+    <entry date="2019-03-15T20:21:34" operation="ROUND">Round Started 2</entry>
+    <entry date="2019-03-15T20:21:35" operation="MATCH">Matches created using match algorithm for round 2.</entry>
+    <entry date="2019-03-15T21:24:12" operation="ROUND">Round Started 3</entry>
+    <entry date="2019-03-15T21:24:13" operation="MATCH">Matches created using match algorithm for round 3.</entry>
+    <entry date="2019-03-15T22:25:50" operation="COM">Tournament Completed</entry>
+    <entry date="2019-03-15T22:25:51" operation="UPL">Results being uploaded.</entry>
+    <entry date="2019-03-15T22:25:51" operation="UPL">Results being uploaded.</entry>
+    <entry date="2019-03-15T22:26:08" operation="UPL">Results being uploaded.</entry>
+    <entry date="2019-03-15T22:26:08" operation="UPL">Results being uploaded.</entry>
+    <entry date="2019-03-15T22:26:14" operation="UPL">Results being uploaded.</entry>
+    <entry date="2019-03-15T22:26:14" operation="UPL">Results being uploaded.</entry>
+    <entry date="2019-03-15T22:26:20" operation="UPL">Results being uploaded.</entry>
+    <entry date="2019-03-15T22:26:20" operation="UPL">Results being uploaded.</entry>
+    <entry date="2019-03-16T10:28:34" operation="UPL">Results being uploaded.</entry>
+    <entry date="2019-03-16T10:28:34" operation="UPL">Results being uploaded.</entry>
+    <entry date="2019-03-16T10:28:38" operation="UPL">Results being uploaded.</entry>
+    <entry date="2019-03-16T10:28:38" operation="UPL">Results being uploaded.</entry>
+  </log>
+</event>
+</eventupload>

@@ -42,22 +42,7 @@ module.exports = {
   /*
   ** Nuxt.js modules
   */
-  modules: [
-    // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
-    // '@nuxtjs/pwa'
-  ],
-  /*
-  ** Axios module configuration
-  */
-  axios: {
-    // See https://github.com/nuxt-community/axios-module#options
-  },
-
-  /*
-    ** The API
-    */
-  serverMiddleware: [{ path: '/api', handler: '~/server/middlewares/api' }],
+  modules: ['@nuxtjs/proxy'],
 
   /*
   ** Build configuration
@@ -70,5 +55,10 @@ module.exports = {
         import: ['~assets/style/variables.styl'],
       },
     },
+  },
+
+  proxy: {
+    // Simple proxy
+    '/api': 'http://localhost:3001',
   },
 }

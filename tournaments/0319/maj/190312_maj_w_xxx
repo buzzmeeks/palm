@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Standings>
+  <Team Rank="1" Name="Labenne, Romain" DCI="3300007491" MatchPoints="9" MatchResultsPWDB="3/3/0/0" OpponentMatchWinPercent="55,4445" GamesWinPercent="100" OpponentsGameWinPercent="41,2699" />
+  <Team Rank="2" Name="Simonnot, Julien" DCI="9319072393" MatchPoints="6" MatchResultsPWDB="3/2/0/0" OpponentMatchWinPercent="66,6667" GamesWinPercent="57,1429" OpponentsGameWinPercent="65,2778" />
+  <Team Rank="3" Name="Valette, Thibault" DCI="8105378485" MatchPoints="6" MatchResultsPWDB="3/2/0/0" OpponentMatchWinPercent="55,5555" GamesWinPercent="66,6667" OpponentsGameWinPercent="53,9682" />
+  <Team Rank="4" Name="Boulinguiez, Mike" DCI="2107033163" MatchPoints="6" MatchResultsPWDB="3/2/0/0" OpponentMatchWinPercent="44,4444" GamesWinPercent="62,5" OpponentsGameWinPercent="45,2381" />
+  <Team Rank="5" Name="Boulinguiez, Dylan" DCI="1206211023" MatchPoints="3" MatchResultsPWDB="3/1/0/0" OpponentMatchWinPercent="55,5556" GamesWinPercent="28,5714" OpponentsGameWinPercent="59,7222" />
+  <Team Rank="6" Name="Medici, Julien" DCI="5213753004" MatchPoints="3" MatchResultsPWDB="3/1/0/0" OpponentMatchWinPercent="55,4445" GamesWinPercent="33,3333" OpponentsGameWinPercent="41,2699" />
+  <Team Rank="7" Name="Hocquemiller, Vincent" DCI="1203984345" MatchPoints="3" MatchResultsPWDB="3/1/0/0" OpponentMatchWinPercent="44,3333" GamesWinPercent="50" OpponentsGameWinPercent="30,3571" />
+  <Team Rank="8" Name="Pannekoek, Yannick" DCI="2115180554" MatchPoints="0" MatchResultsPWDB="3/0/0/0" OpponentMatchWinPercent="55,5555" GamesWinPercent="0" OpponentsGameWinPercent="61,1111" />
+</Standings>

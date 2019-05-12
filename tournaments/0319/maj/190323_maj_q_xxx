@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Standings>
+  <Team Rank="1" Name="Valette, Thibault" DCI="8105378485" MatchPoints="22" MatchResultsPWDB="9/7/1/0" OpponentMatchWinPercent="58,9501" GamesWinPercent="72,7273" OpponentsGameWinPercent="51,2446" />
+  <Team Rank="2" Name="Bral, Pierre-axel" DCI="3213647746" MatchPoints="20" MatchResultsPWDB="9/6/2/0" OpponentMatchWinPercent="53,4812" GamesWinPercent="57,3333" OpponentsGameWinPercent="48,7397" />
+  <Team Rank="3" Name="Merle, Arthur" DCI="5105342324" MatchPoints="17" MatchResultsPWDB="8/5/2/0" OpponentMatchWinPercent="54,7355" GamesWinPercent="54,1667" OpponentsGameWinPercent="56,1877" />
+  <Team Rank="4" Name="Rabie, Mikael" DCI="6028640922" MatchPoints="16" MatchResultsPWDB="8/5/1/0" OpponentMatchWinPercent="52,5463" GamesWinPercent="56,0606" OpponentsGameWinPercent="53,0179" />
+  <Team Rank="5" Name="Mery, Théau" DCI="1206274801" MatchPoints="14" MatchResultsPWDB="7/4/2/0" OpponentMatchWinPercent="64,9943" GamesWinPercent="57,8947" OpponentsGameWinPercent="56,6808" />
+  <Team Rank="6" Name="Hocquemiller, Vincent" DCI="1203984345" MatchPoints="13" MatchResultsPWDB="7/4/1/0" OpponentMatchWinPercent="57,2562" GamesWinPercent="55,5556" OpponentsGameWinPercent="57,194" />
+  <Team Rank="7" Name="Signargout, Axel" DCI="4213730421" MatchPoints="13" MatchResultsPWDB="6/3/1/1" OpponentMatchWinPercent="53,549" GamesWinPercent="64,5833" OpponentsGameWinPercent="48,4622" />
+  <Team Rank="8" Name="Philip, Gislain" DCI="5318826546" MatchPoints="13" MatchResultsPWDB="7/4/1/0" OpponentMatchWinPercent="63,1878" GamesWinPercent="52,6316" OpponentsGameWinPercent="55,5841" />
+  <Team Rank="9" Name="Luc-bastien, Claude" DCI="3114981835" MatchPoints="12" MatchResultsPWDB="6/4/0/0" OpponentMatchWinPercent="54,3977" GamesWinPercent="58,8235" OpponentsGameWinPercent="53,7059" />
+  <Team Rank="10" Name="Delance, Ghislain" DCI="6030952784" MatchPoints="12" MatchResultsPWDB="6/4/0/0" OpponentMatchWinPercent="50,8025" GamesWinPercent="61,5385" OpponentsGameWinPercent="52,6829" />
+  <Team Rank="11" Name="Doisneau, Pierre-antoine" DCI="1314849478" MatchPoints="12" MatchResultsPWDB="6/4/0/0" OpponentMatchWinPercent="47,5397" GamesWinPercent="57,1429" OpponentsGameWinPercent="50,5576" />
+  <Team Rank="12" Name="Boulinguiez, Dylan" DCI="1206211023" MatchPoints="12" MatchResultsPWDB="6/4/0/0" OpponentMatchWinPercent="44,4444" GamesWinPercent="66,6667" OpponentsGameWinPercent="46,8864" />
+  <Team Rank="13" Name="Mace, Vivien" DCI="29858451" MatchPoints="11" MatchResultsPWDB="6/3/2/0" OpponentMatchWinPercent="51,0582" GamesWinPercent="54,1667" OpponentsGameWinPercent="51,6804" />
+  <Team Rank="14" Name="Locher, Benjamin" DCI="2030935938" MatchPoints="10" MatchResultsPWDB="6/3/1/0" OpponentMatchWinPercent="54,9594" GamesWinPercent="55,5556" OpponentsGameWinPercent="43,7412" />
+  <Team Rank="15" Name="Brochard-garnier, Thomas" DCI="7102528091" MatchPoints="9" MatchResultsPWDB="6/3/0/0" OpponentMatchWinPercent="56,6138" GamesWinPercent="50" OpponentsGameWinPercent="52,5088" />
+  <Team Rank="16" Name="Bernuau, Emmanuel" DCI="5079867526" MatchPoints="9" MatchResultsPWDB="6/3/0/0" OpponentMatchWinPercent="55,4008" GamesWinPercent="60" OpponentsGameWinPercent="46,4492" />
+  <Team Rank="17" Name="Boulinguiez, Mike" DCI="2107033163" MatchPoints="9" MatchResultsPWDB="6/3/0/0" OpponentMatchWinPercent="55,5556" GamesWinPercent="53,8462" OpponentsGameWinPercent="52,6154" />
+  <Team Rank="18" Name="Olivier, Consille" DCI="1318649311" MatchPoints="9" MatchResultsPWDB="6/3/0/0" OpponentMatchWinPercent="53,7341" GamesWinPercent="60" OpponentsGameWinPercent="47,2553" />
+  <Team Rank="19" Name="Lisembard, John" DCI="1206292349" MatchPoints="9" MatchResultsPWDB="6/3/0/0" OpponentMatchWinPercent="54,7064" GamesWinPercent="46,6667" OpponentsGameWinPercent="53,0859" />
+  <Team Rank="20" Name="Delafosse, Quentin" DCI="3030947467" MatchPoints="9" MatchResultsPWDB="6/3/0/0" OpponentMatchWinPercent="48,3333" GamesWinPercent="53,3333" OpponentsGameWinPercent="51,0872" />
+  <Team Rank="21" Name="Van Den Brande, Romain" DCI="1300029290" MatchPoints="9" MatchResultsPWDB="6/3/0/0" OpponentMatchWinPercent="48,3333" GamesWinPercent="50" OpponentsGameWinPercent="46,4957" />
+  <Team Rank="22" Name="Pannekoek, Yannick" DCI="2115180554" MatchPoints="9" MatchResultsPWDB="6/3/0/0" OpponentMatchWinPercent="47,1111" GamesWinPercent="53,3333" OpponentsGameWinPercent="39,6778" />
+  <Team Rank="23" Name="Youssef, Saili" DCI="3300001634" MatchPoints="9" MatchResultsPWDB="6/3/0/0" OpponentMatchWinPercent="36,1111" GamesWinPercent="56,25" OpponentsGameWinPercent="37,6356" />
+  <Team Rank="24" Name="Safaï, Soheil" DCI="6207061466" MatchPoints="7" MatchResultsPWDB="6/2/1/0" OpponentMatchWinPercent="54,9594" GamesWinPercent="41,0256" OpponentsGameWinPercent="45,593" />
+  <Team Rank="25" Name="Brecy, Yann" DCI="2115093279" MatchPoints="6" MatchResultsPWDB="5/2/0/0" OpponentMatchWinPercent="62,3148" GamesWinPercent="50" OpponentsGameWinPercent="56,6077" />
+  <Team Rank="26" Name="Flouzat, Julien" DCI="6207061289" MatchPoints="6" MatchResultsPWDB="5/1/0/1" OpponentMatchWinPercent="55,4889" GamesWinPercent="42,8571" OpponentsGameWinPercent="52,0101" />
+  <Team Rank="27" Name="Durmont, Jean-françois" DCI="9212327574" MatchPoints="6" MatchResultsPWDB="6/2/0/0" OpponentMatchWinPercent="51,873" GamesWinPercent="35,7143" OpponentsGameWinPercent="43,0339" />
+  <Team Rank="28" Name="Fontaine, Jérôme" DCI="9213750995" MatchPoints="6" MatchResultsPWDB="6/2/0/0" OpponentMatchWinPercent="50,6389" GamesWinPercent="47,0588" OpponentsGameWinPercent="44,1351" />
+  <Team Rank="29" Name="Mouton, Gilles" DCI="8319630078" MatchPoints="6" MatchResultsPWDB="5/2/0/0" OpponentMatchWinPercent="48,981" GamesWinPercent="41,6667" OpponentsGameWinPercent="45,3139" />
+  <Team Rank="30" Name="Harel, Patrice" DCI="2115083417" MatchPoints="6" MatchResultsPWDB="6/2/0/0" OpponentMatchWinPercent="47,1667" GamesWinPercent="30,7692" OpponentsGameWinPercent="48,5875" />
+  <Team Rank="31" Name="Le Brun, Thibaut" DCI="1102594948" MatchPoints="6" MatchResultsPWDB="6/2/0/0" OpponentMatchWinPercent="45,4444" GamesWinPercent="38,4615" OpponentsGameWinPercent="41,5046" />
+  <Team Rank="32" Name="Joguet, Alexandre" DCI="5030948959" MatchPoints="6" MatchResultsPWDB="5/1/0/1" OpponentMatchWinPercent="39,8667" GamesWinPercent="20" OpponentsGameWinPercent="43,9951" />
+  <Team Rank="33" Name="Moret, Merlin" DCI="1313590607" MatchPoints="4" MatchResultsPWDB="5/1/1/0" OpponentMatchWinPercent="52,7513" GamesWinPercent="30,303" OpponentsGameWinPercent="47,6996" />
+  <Team Rank="34" Name="Nicolas, Mael" DCI="631876513" MatchPoints="3" MatchResultsPWDB="4/1/0/0" OpponentMatchWinPercent="53,6204" GamesWinPercent="36,3636" OpponentsGameWinPercent="42,8877" />
+  <Team Rank="35" Name="Victor, Lenoble" DCI="8313605083" MatchPoints="3" MatchResultsPWDB="6/1/0/0" OpponentMatchWinPercent="45,6234" GamesWinPercent="21,4286" OpponentsGameWinPercent="41,8266" />
+  <Team Rank="36" Name="Teyant, Mickael" DCI="6105347739" MatchPoints="3" MatchResultsPWDB="5/1/0/0" OpponentMatchWinPercent="47,6296" GamesWinPercent="25" OpponentsGameWinPercent="51,4334" />
+  <Team Rank="37" Name="Perrot, Remi" DCI="1011196195" MatchPoints="0" MatchResultsPWDB="1/0/0/0" OpponentMatchWinPercent="55,5556" GamesWinPercent="0" OpponentsGameWinPercent="55,5556" />
+  <Team Rank="38" Name="Fernandez, Anthony" DCI="3115118815" MatchPoints="0" MatchResultsPWDB="4/0/0/0" OpponentMatchWinPercent="38,8889" GamesWinPercent="11,1111" OpponentsGameWinPercent="42,1337" />
+  <Team Rank="39" Name="Meyer, Elliot" DCI="5319659508" MatchPoints="0" MatchResultsPWDB="4/0/0/0" OpponentMatchWinPercent="37,3333" GamesWinPercent="20" OpponentsGameWinPercent="39,0634" />
+</Standings>
