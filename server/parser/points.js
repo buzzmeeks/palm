@@ -5,7 +5,7 @@ function calculatePoints(matches, nbPlayers, nbSwiss, top8, type, tid) {
 
   let qualifierBonus = 0
   if (type === 'q') {
-    qualifierBonus = 1
+    qualifierBonus = 2
   }
 
   const swissPoints = matches.reduce((acc, round) => {
