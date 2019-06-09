@@ -2,7 +2,7 @@ const q = require('../../client')
 
 const NB_BEST_RESULTS = 12
 
-function getRankings(lid) {
+function getRankings({ lid }) {
   return q('players')
     .whereNotNull('leagues')
     .then(users =>
