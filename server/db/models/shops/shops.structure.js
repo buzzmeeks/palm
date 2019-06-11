@@ -8,5 +8,6 @@ module.exports = {
     t.string('city', 50).notNullable()
     t.string('phone', 14)
     t.string('link', 255)
+    t.boolean('partner').defaultTo(false)
   },
 }

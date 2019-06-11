@@ -71,4 +71,14 @@ module.exports = [
     phone: '0155432855',
     link: 'https://www.parkage.com',
   },
+  {
+    id: 'gob',
+    name: 'Le Gob',
+    address: '58 Avenue des Gobelins',
+    zipcode: '75013',
+    city: 'Paris',
+    phone: '0147076009',
+    link: '',
+    partner: true,
+  },
 ]
