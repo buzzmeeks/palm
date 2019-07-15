@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('/assets/design/fonts/Alegreya Sans-Thin.otf') format('otf'),
+         url('/assets/design/fonts/Alegreya Sans-Thin.ttf') format('ttf');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('/assets/design/fonts/Alegreya Sans-ThinItalic.otf') format('otf'),
+         url('/assets/design/fonts/Alegreya Sans-ThinItalic.ttf') format('ttf');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('/assets/design/fonts/Alegreya Sans-Light.otf') format('otf'),
+         url('/assets/design/fonts/Alegreya Sans-Light.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('/assets/design/fonts/Alegreya Sans-LightItalic.otf') format('otf'),
+         url('/assets/design/fonts/Alegreya Sans-LightItalic.ttf') format('ttf');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('/assets/design/fonts/Alegreya Sans-Regular.otf') format('otf'),
+         url('/assets/design/fonts/Alegreya Sans-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('/assets/design/fonts/Alegreya Sans-Italic.otf') format('otf'),
+         url('/assets/design/fonts/Alegreya Sans-Italic.ttf') format('ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('/assets/design/fonts/Alegreya Sans-Medium.otf') format('otf'),
+         url('/assets/design/fonts/Alegreya Sans-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('/assets/design/fonts/Alegreya Sans-MediumItalic.otf') format('otf'),
+         url('/assets/design/fonts/Alegreya Sans-MediumItalic.ttf') format('ttf');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('/assets/design/fonts/Alegreya Sans-Bold.otf') format('otf'),
+         url('/assets/design/fonts/Alegreya Sans-Bold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('/assets/design/fonts/Alegreya Sans-BoldItalic.otf') format('otf'),
+         url('/assets/design/fonts/Alegreya Sans-BoldItalic.ttf') format('ttf');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('/assets/design/fonts/Alegreya Sans-ExtraBold.otf') format('otf'),
+         url('/assets/design/fonts/Alegreya Sans-ExtraBold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('/assets/design/fonts/Alegreya Sans-ExtraBoldItalic.otf') format('otf'),
+         url('/assets/design/fonts/Alegreya Sans-ExtraBoldItalic.ttf') format('ttf');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('/assets/design/fonts/Alegreya Sans-Black.otf') format('otf'),
+         url('/assets/design/fonts/Alegreya Sans-Black.ttf') format('ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('/assets/design/fonts/Alegreya Sans-BlackItalic.otf') format('otf'),
+         url('/assets/design/fonts/Alegreya Sans-BlackItalic.ttf') format('ttf');
+    font-weight: 800;
+    font-style: italic;
+}
+

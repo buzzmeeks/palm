@@ -1,6 +1,6 @@
 <template>
-  <v-app dark>
-    <v-navigation-drawer v-model="drawer" fixed app>
+  <v-app>
+    <!--<v-navigation-drawer v-model="drawer" fixed app>
       <v-list>
         <v-list-tile v-for="(item, i) in items" :key="i" :to="item.to" router exact>
           <v-list-tile-content>
@@ -12,20 +12,25 @@
     <v-toolbar fixed app>
       <v-toolbar-side-icon @click="drawer = !drawer"/>
       <v-toolbar-title v-text="title"/>
-    </v-toolbar>
-    <v-content>
-      <v-container>
-        <nuxt/>
-      </v-container>
-    </v-content>
-    <v-footer fixed app>
+    </v-toolbar>-->
+    <toolbar></toolbar>
+    <nuxt />
+    <!--<v-footer fixed app>
       <span>&copy; 2019</span>
-    </v-footer>
+    </v-footer>-->
+    <appfooter></appfooter>
   </v-app>
 </template>
 
 <script>
+import toolbar from './toolbar'
+import appfooter from './appfooter'
 export default {
+  name: 'default',
+  components: {
+    toolbar,
+    appfooter,
+  },
   data() {
     return {
       title: 'PaLM',
@@ -33,30 +38,30 @@ export default {
       items: [
         {
           title: 'Accueil',
-          to: '/'
+          to: '/',
         },
         {
           title: 'Classement',
-          to: '/standings'
+          to: '/standings',
         },
         {
           title: 'Réglement',
-          to: '/settlement'
+          to: '/settlement',
         },
         {
           title: 'Calcul des points',
-          to: '/points'
+          to: '/points',
         },
         {
           title: 'Finale',
-          to: '/finale'
+          to: '/finale',
         },
         {
           title: 'Contact',
-          to: '/contact'
-        }
-      ]
+          to: '/contact',
+        },
+      ],
     }
-  }
+  },
 }
 </script>
