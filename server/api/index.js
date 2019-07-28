@@ -25,6 +25,22 @@ app.get('/api/tournaments', async function(req, res) {
   res.end(msg)
 })
 
+app.get('/api/numberOfTournaments', async function(req, res) {
+  const number = await tournamentModel.getNumberOfTournaments({ lid: 1 })
+  const msg = JSON.stringify(number)
+  res.setHeader('Content-Type', 'application/json')
+  res.setHeader('Content-Length', Buffer.byteLength(msg))
+  res.end(msg)
+})
+
+app.get('/api/numberOfQualifierTournaments', async function(req, res) {
+  const number = await tournamentModel.getNumberOfQualifierTournaments({ lid: 1 })
+  const msg = JSON.stringify(number)
+  res.setHeader('Content-Type', 'application/json')
+  res.setHeader('Content-Length', Buffer.byteLength(msg))
+  res.end(msg)
+})
+
 app.listen(port, () => {
   console.log(`API LISTENING ON ${port}`)
 })

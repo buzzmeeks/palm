@@ -37,4 +37,17 @@ function getAll({ lid }) {
     .then(t => _.groupBy(t, 'shop'))
 }
 
-module.exports = { getAll }
+function getNumberOfTournaments({ lid }) {
+  return q.raw('SELECT COUNT(*) FROM tournaments;')
+}
+
+function getNumberOfQualifierTournaments({ lid }) {
+  return q.raw('SELECT COUNT(*) FROM tournaments where type=\'q\';')
+}
+
+
+module.exports = {
+  getAll,
+  getNumberOfTournaments,
+  getNumberOfQualifierTournaments,
+}
