@@ -10,9 +10,13 @@ export const actions = {
     const nbTournamentsQ = await axios.get(
       'http://localhost:3001/api/numberOfQualifierTournaments',
     )
+    const nbDCI = await axios.get('http://localhost:3001/api/countDCI')
+    const ticketSold = await axios.get('http://localhost:3001/api/tournaments')
     commit('setRankings', ranking.data)
     commit('setNbTour', nbTournaments.data)
     commit('setNbTourQ', nbTournamentsQ.data)
+    commit('setNbDCI', nbDCI.data)
+    commit('setTicketSold', ticketSold.data)
   },
 }
 
@@ -25,7 +29,13 @@ export const mutations = {
   },
   setNbTourQ(state, nbTournamentsQ) {
     state.nbtourq = nbTournamentsQ
-  }
+  },
+  setNbDCI(state, nbDCI) {
+    state.nbDCI = nbDCI
+  },
+  setTicketSold(state, ticketSold) {
+    state.tickSold = ticketSold
+  },
 }
 
 export const state = () => ({
@@ -42,6 +52,8 @@ export const state = () => ({
   globalStandings: [],
   nbtour: 0,
   nbtourq: 0,
+  nbDCI: 0,
+  tickSold: 0,
 })
 
 export const getters = {

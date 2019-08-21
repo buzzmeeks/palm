@@ -41,6 +41,14 @@ app.get('/api/numberOfQualifierTournaments', async function(req, res) {
   res.end(msg)
 })
 
+app.get('/api/countDCI', async function(req, res) {
+  const number = await playerModel.countDCI()
+  const msg = JSON.stringify(number)
+  res.setHeader('Content-Type', 'application/json')
+  res.setHeader('Content-Length', Buffer.byteLength(msg))
+  res.end(msg)
+})
+
 app.listen(port, () => {
   console.log(`API LISTENING ON ${port}`)
 })

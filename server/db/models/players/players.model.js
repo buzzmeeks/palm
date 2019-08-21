@@ -34,4 +34,11 @@ function getRankings({ lid }) {
     })
 }
 
-module.exports = { getRankings }
+function countDCI() {
+  return q.raw('SELECT COUNT(DISTINCT(dci)) FROM players;')
+}
+
+module.exports = {
+  getRankings,
+  countDCI,
+}
