@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-16"?>
+<eventupload>
+<event sanctionnumber="19-08-14494945" eventguid="98e31a10-3000-46a6-a7d1-727b44767811" eventtypecode="CAS" orgname="Parkage" coordinator="9113897337" startdate="2019-08-17" postevententry="false" enddate="2001-01-01T00:00:00" format="CASM" eliminationType="3" iscasualreportonly="False" title="Magic Casual Event " isstarted="True" status="8" batchid="" isplayoff="False" manualmatchround="0" notes="19-08-14494945" numberofrounds="2" playoffstartround="0">
+  <participation>
+    <person id="2115173257" first="Raphaël" last="Gomez Da Silva" middle="" country="FR" />
+    <person id="4203770783" first="Loic" last="Quentin" middle="" country="FR" />
+    <person id="5313588024" first="Christophe" last="Deboffle" middle="" country="FR" />
+    <person id="1313594771" first="Pierre-erik" last="Lay" middle="" country="FR" />
+    <team id="15668" name="Deboffle, Christophe" status="2" eliminationround="0">
+      <member position="A" person="5313588024" />
+    </team>
+    <team id="15669" name="Quentin, Loic" status="2" eliminationround="0">
+      <member position="A" person="4203770783" />
+    </team>
+    <team id="15670" name="Lay, Pierre-erik" status="2" eliminationround="0">
+      <member position="A" person="1313594771" />
+    </team>
+    <team id="15671" name="Gomez Da Silva, Raphaël" status="2" eliminationround="0">
+      <member position="A" person="2115173257" />
+    </team>
+    <role cd="PL" type="PA">
+      <ref person="5313588024" seq="1" />
+      <ref person="2115173257" seq="2" />
+      <ref person="4203770783" seq="3" />
+      <ref person="1313594771" seq="4" />
+    </role>
+    <role cd="PL" type="DQ" />
+    <role cd="JG" type="PA" />
+  </participation>
+  <matches>
+    <round number="1" PlayFormat="CASM" date="2019-08-17T13:20:24" teamformat="false">
+      <match person="2115173257" opponent="4203770783" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="5313588024" opponent="1313594771" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+    </round>
+    <round number="2" PlayFormat="CASM" date="2019-08-17T13:20:46" teamformat="false">
+      <match person="5313588024" opponent="2115173257" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="4203770783" opponent="1313594771" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+    </round>
+  </matches>
+  <seats />
+  <pods>
+    <podround>
+      <round number="1" />
+      <round number="2" />
+    </podround>
+  </pods>
+  <log>
+    <entry date="2019-08-17T13:19:21" operation="CRE">4.5.9.37545</entry>
+    <entry date="2019-08-17T13:20:24" operation="ROUND">Round Started 1</entry>
+    <entry date="2019-08-17T13:20:25" operation="MATCH">Matches created using match algorithm for round 1.</entry>
+    <entry date="2019-08-17T13:20:35" operation="MATCH">Match Created Manually</entry>
+    <entry date="2019-08-17T13:20:46" operation="ROUND">Round Started 2</entry>
+    <entry date="2019-08-17T13:20:47" operation="MATCH">Matches created using match algorithm for round 2.</entry>
+    <entry date="2019-08-17T13:20:55" operation="COM">Tournament Completed</entry>
+    <entry date="2019-08-17T13:20:56" operation="UPL">Results being uploaded.</entry>
+    <entry date="2019-08-17T13:20:56" operation="UPL">Results being uploaded.</entry>
+  </log>
+</event>
+</eventupload>

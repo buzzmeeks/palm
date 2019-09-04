@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-16"?>
+<eventupload>
+<event sanctionnumber="19-07-13518165" eventguid="07f45d9f-50d0-41fd-b733-8f242d605fb9" eventtypecode="FM" orgname="Parkage" coordinator="9113897337" startdate="2019-07-05" postevententry="false" enddate="2001-01-01T00:00:00" format="MODERN" eliminationType="3" iscasualreportonly="False" title="Friday Night Magic Tournament War of the Spark" isstarted="True" status="8" batchid="" isplayoff="False" manualmatchround="0" notes="19-07-13518165" numberofrounds="3" playoffstartround="0">
+  <participation>
+    <person id="19855372" first="Adrien" last="Penard" middle="" country="FR" />
+    <person id="5313588024" first="Christophe" last="Deboffle" middle="" country="FR" />
+    <person id="5318643720" first="Quentin" last="Debesson" middle="" country="FR" />
+    <person id="4102804815" first="Cedric" last="Leizour" middle="" country="FR" />
+    <person id="1313594771" first="Pierre-erik" last="Lay" middle="" country="FR" />
+    <person id="8113333781" first="Maxime" last="Gral" middle="" country="FR" />
+    <person id="9511660990" first="Benjamin" last="Houx" middle="" country="FR" />
+    <person id="6105347739" first="Mickael" last="Teyant" middle="" country="FR" />
+    <team id="15437" name="Debesson, Quentin" status="2" eliminationround="0">
+      <member position="A" person="5318643720" />
+    </team>
+    <team id="15438" name="Deboffle, Christophe" status="2" eliminationround="0">
+      <member position="A" person="5313588024" />
+    </team>
+    <team id="15439" name="Gral, Maxime" status="2" eliminationround="0">
+      <member position="A" person="8113333781" />
+    </team>
+    <team id="15440" name="Houx, Benjamin" status="2" eliminationround="0">
+      <member position="A" person="9511660990" />
+    </team>
+    <team id="15441" name="Lay, Pierre-erik" status="2" eliminationround="0">
+      <member position="A" person="1313594771" />
+    </team>
+    <team id="15442" name="Leizour, Cedric" status="2" eliminationround="0">
+      <member position="A" person="4102804815" />
+    </team>
+    <team id="15443" name="Penard, Adrien" status="2" eliminationround="0">
+      <member position="A" person="19855372" />
+    </team>
+    <team id="15444" name="Teyant, Mickael" status="2" eliminationround="0">
+      <member position="A" person="6105347739" />
+    </team>
+    <role cd="PL" type="PA">
+      <ref person="5318643720" seq="1" />
+      <ref person="19855372" seq="2" />
+      <ref person="4102804815" seq="3" />
+      <ref person="1313594771" seq="4" />
+      <ref person="8113333781" seq="5" />
+      <ref person="5313588024" seq="6" />
+      <ref person="9511660990" seq="7" />
+      <ref person="6105347739" seq="8" />
+    </role>
+    <role cd="PL" type="DQ" />
+    <role cd="JG" type="PA" />
+  </participation>
+  <matches>
+    <round number="1" PlayFormat="MODERN" date="2019-07-05T19:32:18" teamformat="false">
+      <match person="19855372" opponent="5313588024" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="5318643720" opponent="4102804815" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="8113333781" opponent="1313594771" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+      <match person="9511660990" opponent="6105347739" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+    </round>
+    <round number="2" PlayFormat="MODERN" date="2019-07-05T20:16:37" teamformat="false">
+      <match person="19855372" opponent="9511660990" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="5318643720" opponent="8113333781" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="1313594771" opponent="5313588024" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+      <match person="4102804815" opponent="6105347739" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+    </round>
+    <round number="3" PlayFormat="MODERN" date="2019-07-05T21:04:06" teamformat="false">
+      <match person="5318643720" opponent="19855372" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="4102804815" opponent="8113333781" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="1313594771" opponent="9511660990" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+      <match person="5313588024" opponent="6105347739" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+    </round>
+  </matches>
+  <seats />
+  <pods>
+    <podround>
+      <round number="1" />
+      <round number="2" />
+      <round number="3" />
+    </podround>
+  </pods>
+  <log>
+    <entry date="2019-02-19T16:54:03" operation="CRE">4.5.8.659</entry>
+    <entry date="2019-07-05T19:32:18" operation="ROUND">Round Started 1</entry>
+    <entry date="2019-07-05T19:32:20" operation="MATCH">Matches created using match algorithm for round 1.</entry>
+    <entry date="2019-07-05T20:16:37" operation="ROUND">Round Started 2</entry>
+    <entry date="2019-07-05T20:16:38" operation="MATCH">Matches created using match algorithm for round 2.</entry>
+    <entry date="2019-07-05T21:04:06" operation="ROUND">Round Started 3</entry>
+    <entry date="2019-07-05T21:04:07" operation="MATCH">Matches created using match algorithm for round 3.</entry>
+    <entry date="2019-07-05T22:04:23" operation="COM">Tournament Completed</entry>
+    <entry date="2019-07-05T22:04:25" operation="UPL">Results being uploaded.</entry>
+    <entry date="2019-07-05T22:04:25" operation="UPL">Results being uploaded.</entry>
+  </log>
+</event>
+</eventupload>
