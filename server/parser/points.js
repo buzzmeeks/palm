@@ -3,7 +3,7 @@ const distribution = require('./distribution')
 function calculatePoints(matches, nbPlayers, nbSwiss, top8, type, tid) {
   const distSwiss = distribution.swiss.find(i => i.nbRound === nbSwiss)
 
-  let qualifierBonus = 0
+  let qualifierBonus = 1
   if (type === 'q') {
     qualifierBonus = 2
   }
@@ -64,26 +64,26 @@ function calculatePoints(matches, nbPlayers, nbSwiss, top8, type, tid) {
             case nbSwiss + 1:
               if (match.outcome === 'L') {
                 points[index].tournaments[tid].ppalm =
-                  top8Distribution.points[3] + qualifierBonus
+                  top8Distribution.points[3] + qualifierBonus + 1
                 points[index].tournaments[tid].top8 = '5 - 8'
               }
               break
             case nbSwiss + 2:
               if (match.outcome === 'L') {
                 points[index].tournaments[tid].ppalm =
-                  top8Distribution.points[2] + qualifierBonus
+                  top8Distribution.points[2] + qualifierBonus + 1
                 points[index].tournaments[tid].top8 = '3 - 4'
               }
               break
             case nbSwiss + 3:
               if (match.outcome === 'L') {
                 points[index].tournaments[tid].ppalm =
-                  top8Distribution.points[1] + qualifierBonus
+                  top8Distribution.points[1] + qualifierBonus + 1
                 points[index].tournaments[tid].top8 = '2'
               }
               if (match.outcome === 'W') {
                 points[index].tournaments[tid].ppalm =
-                  top8Distribution.points[0] + qualifierBonus
+                  top8Distribution.points[0] + qualifierBonus + 1
                 points[index].tournaments[tid].top8 = '1'
               }
               break
