@@ -31,7 +31,7 @@
                 </div>
                 <div class="rankGlobalPoints">
                   <div>
-                    <div class="rankGlobalPointsNumber">{{standing.points}}pts</div>
+                    <div class="rankGlobalPointsNumber">{{standing.points}}</div>
                     <div class="rankGlobalPointsTxt">points</div>
                   </div>
                 </div>

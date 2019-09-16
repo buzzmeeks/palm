@@ -9,9 +9,9 @@
       </div>
       <div id="navMobileInternal">
         <div class="navMobileItem">
-          <a href="events.html">
+          <router-link to="/events">
             <span class="navMobileLinkLabel">Événements</span>
-          </a>
+          </router-link>
         </div>
         <div class="navMobileItem">
           <router-link to="/standings">
@@ -61,7 +61,7 @@
       <div id="headerNav">
         <nav id="navFull">
           <span class="headerNavItem">
-            <a href="events.html">Événements</a>
+            <router-link to="/events">Événements</router-link>
           </span>
           <span class="headerNavItem">
             <router-link to="/standings">
