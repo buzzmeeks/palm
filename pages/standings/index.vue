@@ -48,10 +48,10 @@
               <div class="rankSwitch current">par boutique</div>
             </div>
             <v-container fluid>
-                <v-select :items="items" item-value="src" label="Select a shop" @change="test"></v-select>
+              <v-select :items="items" item-value="src" label="Select a shop" @change="test"></v-select>
             </v-container>
-          </div>
-          <div id="rankGlobalList">
+
+            <div id="rankGlobalList">
               <div
                 class="rankGlobalItem standing"
                 v-for="(standing, index) in shopDisplay"
@@ -75,6 +75,7 @@
                 </div>
               </div>
             </div>
+          </div>
         </div>
       </section>
     </div>
@@ -84,14 +85,18 @@
 <script>
 export default {
   data: () => ({
-    items: ['Le Repaire du Dragon','Magic Bazar','MagicCorporation','Majestik',
+    items: [
+      'Le Repaire du Dragon',
+      'Magic Bazar',
+      'MagicCorporation',
+      'Majestik',
       'Parkage',
       'Troll 2 Jeux',
       'Uchronies',
-      'La Waaagh Taverne'
+      'La Waaagh Taverne',
     ],
     isDisplay: false,
-    shopDisplay: []
+    shopDisplay: [],
   }),
   computed: {
     standings() {
@@ -112,28 +117,52 @@ export default {
       this.isDisplay = !this.isDisplay
       console.log(this.isDisplay)
     },
-    test: function(shopName){
+    test: function(shopName) {
       let gamma = []
-      if(shopName == 'Le Repaire du Dragon'){
-          for (var x in this.$store.state.globalStandings){
-            let ppoints = 0
-            for (var y in this.$store.state.globalStandings[x].leagues[0].results) {
-              if(y.includes('dra')){
-                ppoints += this.$store.state.globalStandings[x].leagues[0].results[y].ppalm
-              }
-            }
-            gamma.push({dci:this.$store.state.globalStandings[x].dci,name:this.$store.state.globalStandings[x].name, points:ppoints})
-          }
-      }
-      gamma.sort((a,b) => (a.points < b.points) ? 1 : -1)
+      if (shopName == 'Le Repaire du Dragon') {
+        gamma = this.filteringShops('dra')
+      } else if (shopName == 'Magic Bazar') {
+        gamma = this.filteringShops('mba')
+      }else if (shopName == 'MagicCorporation') {
+        gamma = this.filteringShops('mco')
+      }else if (shopName == 'Majestik') {
+        gamma = this.filteringShops('maj')
+      }else if (shopName == 'Parkage') {
+        gamma = this.filteringShops('par')
+      }else if (shopName == 'Troll 2 Jeux') {
+        gamma = this.filteringShops('t2j')
+      }else if (shopName == 'Uchronies') {
+        gamma = this.filteringShops('uch')
+      } else if (shopName == 'La Waaagh Taverne') {
+        gamma = this.filteringShops('lwt')
+      } 
+      gamma.sort((a, b) => (a.points < b.points ? 1 : -1))
       let alpha = []
       for (let index = 0; index < gamma.length; index++) {
-        if (gamma[index].points !== 0){
+        if (gamma[index].points !== 0) {
           alpha.push(gamma[index])
         }
       }
-      console.log(alpha)
       this.shopDisplay = alpha
+    },
+    filteringShops: function(abbr) {
+      let gamma = []
+      for (var x in this.$store.state.globalStandings) {
+        let ppoints = 0
+        for (var y in this.$store.state.globalStandings[x].leagues[0].results) {
+          if (y.includes(abbr)) {
+            ppoints += this.$store.state.globalStandings[x].leagues[0].results[
+              y
+            ].ppalm
+          }
+        }
+        gamma.push({
+          dci: this.$store.state.globalStandings[x].dci,
+          name: this.$store.state.globalStandings[x].name,
+          points: ppoints,
+        })
+      }
+      return gamma
     },
   },
 }
