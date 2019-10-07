@@ -1,15 +1,9 @@
 <template>
 <div class="contentGeneric">
     <section class="editorial">
-
-    <material-card
-    color="green"
-    title="Simple Table"
-    text="Here is a subtitle for this table"
-  >
     <v-data-table
       :headers="headers"
-      :items="items"
+      :items="tourneyData"
       hide-actions
     >
       <template
@@ -33,7 +27,6 @@
 
       </template>
     </v-data-table>
-  </material-card>
 </section>
 </div>
 </template>
@@ -46,6 +39,19 @@
 
 <script>
 export default{
+  computed:{
+    tourneyData(){
+      let alpha = this.$store.state.tickSold
+      let tourney = []
+      for (var x in alpha){
+        for (var i = 0; i < this.$store.state.tickSold[x].length;i++){
+          tourney.push({date:this.$store.state.tickSold[x][i].date.split('T')[0],boutique:this.$store.state.tickSold[x][i].shop,nbPlayers:this.$store.state.tickSold[x][i].players,type:this.$store.state.tickSold[x][i].type,results:'coming soon'})
+        }
+      }
+      return tourney;
+    }
+    
+  },
   data: () => ({
     headers: [
       {
@@ -74,15 +80,7 @@ export default{
         value: 'results',
       }
     ],
-    items: [
-      {
-        date: 'test',
-        boutique: 'test',
-        nbPlayers: 'test',
-        type: 'test',
-        results: 'test'
-      }
-    ]
+    items: []
   })
 }
 </script>
