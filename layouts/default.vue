@@ -41,6 +41,10 @@ export default {
           to: '/',
         },
         {
+          title: 'Evenements',
+          to: '/events',
+        },
+        {
           title: 'Classement',
           to: '/standings',
         },
