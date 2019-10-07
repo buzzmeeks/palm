@@ -10,7 +10,7 @@
             <div id="rankNav">
               <div class="rankSwitch current">général</div>
               <div class="rankSwitch">
-                <a href="javascript:void(0)" v-on:click="switchToShop()">par boutique</a>
+                <a href="javascript:void(0)" v-on:click="switchToShop()">par Boutique</a>
               </div>
             </div>
             <div id="rankGlobalList">
@@ -47,33 +47,34 @@
               </div>
               <div class="rankSwitch current">par boutique</div>
             </div>
-            <div id="rankShopList">
-              <div class="rankShopItem">
-                <a href="#">Le Repaire du Dragon</a>
-              </div>
-              <div class="rankShopItem">
-                <a href="#">Magic Bazar</a>
-              </div>
-              <div class="rankShopItem">
-                <a href="#">MagicCorporation</a>
-              </div>
-              <div class="rankShopItem">
-                <a href="#">Majestik</a>
-              </div>
-              <div class="rankShopItem">
-                <a href="#">Parkage</a>
-              </div>
-              <div class="rankShopItem">
-                <a href="#">Troll 2 Jeux</a>
-              </div>
-              <div class="rankShopItem">
-                <a href="#">Uchronies</a>
-              </div>
-              <div class="rankShopItem">
-                <a href="#">La Waaagh Taverne</a>
+            <v-container fluid>
+                <v-select :items="items" item-value="src" label="Select a shop" @change="test"></v-select>
+            </v-container>
+          </div>
+          <div id="rankGlobalList">
+              <div
+                class="rankGlobalItem standing"
+                v-for="(standing, index) in shopDisplay"
+                :key="standing.dci"
+              >
+                <!-- START ENTRY -->
+                <div class="rankGlobalPlayer">
+                  <div>
+                    <div class="rankGlobalName">
+                      <span class="rankPosition">{{index + 1}}</span>
+                      <span class="rankName">{{ standing.name }}</span>
+                    </div>
+                    <div class="rankGlobalDCI">{{ standing.dci }}</div>
+                  </div>
+                </div>
+                <div class="rankGlobalPoints">
+                  <div>
+                    <div class="rankGlobalPointsNumber">{{standing.points}}</div>
+                    <div class="rankGlobalPointsTxt">points</div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
         </div>
       </section>
     </div>
@@ -82,6 +83,16 @@
 
 <script>
 export default {
+  data: () => ({
+    items: ['Le Repaire du Dragon','Magic Bazar','MagicCorporation','Majestik',
+      'Parkage',
+      'Troll 2 Jeux',
+      'Uchronies',
+      'La Waaagh Taverne'
+    ],
+    isDisplay: false,
+    shopDisplay: []
+  }),
   computed: {
     standings() {
       return this.$store.state.globalStandings
@@ -96,10 +107,37 @@ export default {
       document.getElementById('rankShop').style.display = 'none'
       document.getElementById('rankGlobal').style.display = 'block'
     },
+    displayranktest: function() {
+      console.log(this.isDisplay)
+      this.isDisplay = !this.isDisplay
+      console.log(this.isDisplay)
+    },
+    test: function(shopName){
+      let gamma = []
+      if(shopName == 'Le Repaire du Dragon'){
+          for (var x in this.$store.state.globalStandings){
+            let ppoints = 0
+            for (var y in this.$store.state.globalStandings[x].leagues[0].results) {
+              if(y.includes('dra')){
+                ppoints += this.$store.state.globalStandings[x].leagues[0].results[y].ppalm
+              }
+            }
+            gamma.push({dci:this.$store.state.globalStandings[x].dci,name:this.$store.state.globalStandings[x].name, points:ppoints})
+          }
+      }
+      gamma.sort((a,b) => (a.points < b.points) ? 1 : -1)
+      let alpha = []
+      for (let index = 0; index < gamma.length; index++) {
+        if (gamma[index].points !== 0){
+          alpha.push(gamma[index])
+        }
+      }
+      console.log(alpha)
+      this.shopDisplay = alpha
+    },
   },
 }
 </script>
 
 <style>
-
 </style>
