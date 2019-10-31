@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<eventupload>
 <event sanctionnumber="19-09-13999899" eventguid="bfdf159f-61e5-4b5c-b48c-afba23d3dad5" eventtypecode="FM" orgname="Parkage" coordinator="9113897337" startdate="2019-09-06" postevententry="false" enddate="0001-01-01T00:00:00" format="MODERN" eliminationType="3" iscasualreportonly="False" title="Friday Night Magic Tournament Core Set 2020" isstarted="True" status="8" batchid="" isplayoff="False" manualmatchround="0" notes="19-09-13999899" numberofrounds="3" playoffstartround="0">
   <participation>
     <person id="5313600138" first="Francois" last="Le" middle="" country="FR" />
@@ -100,3 +102,4 @@
     <entry date="2019-09-06T22:31:52" operation="UPL">Results being uploaded.</entry>
   </log>
 </event>
+</eventupload>
