@@ -26,7 +26,7 @@
                       <span class="rankPosition">{{index + 1}}</span>
                       <span class="rankName">{{ standing.name }}</span>
                     </div>
-                    <div class="rankGlobalDCI">{{ standing.dci }}</div>
+                    <div class="rankGlobalDCI">{{ "*".repeat(standing.dci.length-4) + standing.dci.substring(standing.dci.length-4,standing.dci.length) }}</div>
                   </div>
                 </div>
                 <div class="rankGlobalPoints">
@@ -64,7 +64,7 @@
                       <span class="rankPosition">{{index + 1}}</span>
                       <span class="rankName">{{ standing.name }}</span>
                     </div>
-                    <div class="rankGlobalDCI">{{ standing.dci }}</div>
+                    <div class="rankGlobalDCI">{{ "******" + standing.dci.substring(6,10) }}</div>
                   </div>
                 </div>
                 <div class="rankGlobalPoints">
@@ -147,14 +147,31 @@ export default {
     },
     filteringShops: function(abbr) {
       let gamma = []
+      console.log()
+      let numberoftourney = this.$store.state.tickSold[abbr].length
+      let counting = Math.round(numberoftourney/2)
+      counting = Math.max(counting,3)
+      counting = Math.min(counting,12)
+      //x correspond à un index er globalstandings[x] est un joueur et 
+      //y correspond au nom d'un tournoi et results[y].ppalm les point palm du dit tournoi
       for (var x in this.$store.state.globalStandings) {
         let ppoints = 0
+        let listofpoints = []
         for (var y in this.$store.state.globalStandings[x].leagues[0].results) {
           if (y.includes(abbr)) {
-            ppoints += this.$store.state.globalStandings[x].leagues[0].results[
+            /*ppoints += this.$store.state.globalStandings[x].leagues[0].results[
               y
-            ].ppalm
+            ].ppalm*/
+            listofpoints.push(this.$store.state.globalStandings[x].leagues[0].results[
+              y
+            ].ppalm)
           }
+          
+        }
+        listofpoints.sort((a,b) => (a > b ? 1 : -1))
+        console.log(listofpoints)
+        for (var z =  0; z < Math.min(counting,listofpoints.length);z++){
+            ppoints += listofpoints[z]
         }
         gamma.push({
           dci: this.$store.state.globalStandings[x].dci,
