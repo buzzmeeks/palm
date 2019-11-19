@@ -148,16 +148,17 @@ export default {
     filteringShops: function(abbr) {
       let gamma = []
       console.log()
-      let numberoftourney = this.$store.state.tickSold[abbr].length
-      let counting = Math.round(numberoftourney/2)
-      counting = Math.max(counting,3)
-      counting = Math.min(counting,12)
-      //x correspond à un index er globalstandings[x] est un joueur et 
-      //y correspond au nom d'un tournoi et results[y].ppalm les point palm du dit tournoi
+      //let numberoftourney = this.$store.state.tickSold[abbr].length
+      //let counting = Math.round(numberoftourney/2)
+      //counting = Math.max(counting,3)
+      //counting = Math.min(counting,12)
+	  let counting = 12
       for (var x in this.$store.state.globalStandings) {
+	  //x correspond à un index; globalstandings[x] est un joueur
         let ppoints = 0
         let listofpoints = []
         for (var y in this.$store.state.globalStandings[x].leagues[0].results) {
+		//y correspond au nom d'un tournoi et results[y].ppalm les point palm du dit tournoi
           if (y.includes(abbr)) {
             /*ppoints += this.$store.state.globalStandings[x].leagues[0].results[
               y
