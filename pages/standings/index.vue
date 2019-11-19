@@ -152,7 +152,7 @@ export default {
       //let counting = Math.round(numberoftourney/2)
       //counting = Math.max(counting,3)
       //counting = Math.min(counting,12)
-	  let counting = 12
+	    let counting = 12
       for (var x in this.$store.state.globalStandings) {
 	  //x correspond à un index; globalstandings[x] est un joueur
         let ppoints = 0
@@ -169,7 +169,7 @@ export default {
           }
           
         }
-        listofpoints.sort((a,b) => (a > b ? 1 : -1))
+        listofpoints.sort((a,b) => (a < b ? 1 : -1))
         console.log(listofpoints)
         for (var z =  0; z < Math.min(counting,listofpoints.length);z++){
             ppoints += listofpoints[z]
