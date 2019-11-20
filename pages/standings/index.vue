@@ -182,6 +182,52 @@ export default {
       }
       return gamma
     },
+	filteringComposite: function() {
+      let gamma = []
+      for (var x in this.$store.state.globalStandings) {
+	  //x correspond à un index; globalstandings[x] est un joueur
+        let ppoints = 0
+        let bestresults = [0,0,0,0,0,0,0,0]
+		// bestresults contient les meilleurs résultats de x pour chaque magasin, dans l'ordre maj, mba, mco, par, dra ,t2j, uch, lwt.
+        for (var y in this.$store.state.globalStandings[x].leagues[0].results) {
+		//y correspond au nom d'un tournoi et results[y].ppalm les point palm du dit tournoi
+          if (y.includes(maj)) {
+			bestresults[0] = Math.max(bestresults[0],this.$store.state.globalStandings[x].leagues[0].results[y].ppalm)
+          }
+          if (y.includes(mba)) {
+			bestresults[1] = Math.max(bestresults[1],this.$store.state.globalStandings[x].leagues[0].results[y].ppalm)
+          }
+		  if (y.includes(mco)) {
+			bestresults[2] = Math.max(bestresults[2],this.$store.state.globalStandings[x].leagues[0].results[y].ppalm)
+          }
+		  if (y.includes(par)) {
+			bestresults[3] = Math.max(bestresults[3],this.$store.state.globalStandings[x].leagues[0].results[y].ppalm)
+          }
+		  if (y.includes(dra)) {
+			bestresults[4] = Math.max(bestresults[4],this.$store.state.globalStandings[x].leagues[0].results[y].ppalm)
+          }
+		  if (y.includes(t2j)) {
+			bestresults[5] = Math.max(bestresults[5],this.$store.state.globalStandings[x].leagues[0].results[y].ppalm)
+          }
+		  if (y.includes(uch)) {
+			bestresults[6] = Math.max(bestresults[6],this.$store.state.globalStandings[x].leagues[0].results[y].ppalm)
+          }
+		  if (y.includes(lwt)) {
+			bestresults[7] = Math.max(bestresults[7],this.$store.state.globalStandings[x].leagues[0].results[y].ppalm)
+
+          }
+        }
+        for (var z =  0; z < 8;z++){
+            ppoints += listofpoints[z]
+        }
+        gamma.push({
+          dci: this.$store.state.globalStandings[x].dci,
+          name: this.$store.state.globalStandings[x].name,
+          points: ppoints,
+        })
+      }
+      return gamma
+    },
   },
 }
 </script>
