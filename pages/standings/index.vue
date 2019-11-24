@@ -94,6 +94,7 @@ export default {
       'Troll 2 Jeux',
       'Uchronies',
       'La Waaagh Taverne',
+      'Composite'
     ],
     isDisplay: false,
     shopDisplay: [],
@@ -135,7 +136,9 @@ export default {
         gamma = this.filteringShops('uch')
       } else if (shopName == 'La Waaagh Taverne') {
         gamma = this.filteringShops('lwt')
-      } 
+      } else if (shopName == 'Composite') {
+        gamma = this.filteringComposite()
+      }
       gamma.sort((a, b) => (a.points < b.points ? 1 : -1))
       let alpha = []
       for (let index = 0; index < gamma.length; index++) {
@@ -191,34 +194,34 @@ export default {
 		// bestresults contient les meilleurs résultats de x pour chaque magasin, dans l'ordre maj, mba, mco, par, dra ,t2j, uch, lwt.
         for (var y in this.$store.state.globalStandings[x].leagues[0].results) {
 		//y correspond au nom d'un tournoi et results[y].ppalm les point palm du dit tournoi
-          if (y.includes(maj)) {
+          if (y.includes('maj')) {
 			bestresults[0] = Math.max(bestresults[0],this.$store.state.globalStandings[x].leagues[0].results[y].ppalm)
           }
-          if (y.includes(mba)) {
+          if (y.includes('mba')) {
 			bestresults[1] = Math.max(bestresults[1],this.$store.state.globalStandings[x].leagues[0].results[y].ppalm)
           }
-		  if (y.includes(mco)) {
+		  if (y.includes('mco')) {
 			bestresults[2] = Math.max(bestresults[2],this.$store.state.globalStandings[x].leagues[0].results[y].ppalm)
           }
-		  if (y.includes(par)) {
+		  if (y.includes('par')) {
 			bestresults[3] = Math.max(bestresults[3],this.$store.state.globalStandings[x].leagues[0].results[y].ppalm)
           }
-		  if (y.includes(dra)) {
+		  if (y.includes('dra')) {
 			bestresults[4] = Math.max(bestresults[4],this.$store.state.globalStandings[x].leagues[0].results[y].ppalm)
           }
-		  if (y.includes(t2j)) {
+		  if (y.includes('t2j')) {
 			bestresults[5] = Math.max(bestresults[5],this.$store.state.globalStandings[x].leagues[0].results[y].ppalm)
           }
-		  if (y.includes(uch)) {
+		  if (y.includes('uch')) {
 			bestresults[6] = Math.max(bestresults[6],this.$store.state.globalStandings[x].leagues[0].results[y].ppalm)
           }
-		  if (y.includes(lwt)) {
+		  if (y.includes('lwt')) {
 			bestresults[7] = Math.max(bestresults[7],this.$store.state.globalStandings[x].leagues[0].results[y].ppalm)
 
           }
         }
         for (var z =  0; z < 8;z++){
-            ppoints += listofpoints[z]
+            ppoints += bestresults[z]
         }
         gamma.push({
           dci: this.$store.state.globalStandings[x].dci,

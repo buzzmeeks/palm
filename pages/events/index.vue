@@ -23,7 +23,7 @@
         <td class="text-xs-center">{{ item.boutique }}</td>
         <td class="text-xs-center">{{ item.nbPlayers }}</td>
         <td class="text-xs-center">{{ item.type }}</td>
-        <td class="text-xs-center">{{ item.results }}</td>
+        <td class="text-xs-center"><nuxt-link :to="{name:'events-results', params: {results: item.results}}">{{ item.results }}</nuxt-link></td>
 
       </template>
     </v-data-table>
@@ -38,14 +38,17 @@
 </style>
 
 <script>
+
+
 export default{
   computed:{
     tourneyData(){
       let alpha = this.$store.state.tickSold
+      console.log(alpha)
       let tourney = []
       for (var x in alpha){
         for (var i = 0; i < this.$store.state.tickSold[x].length;i++){
-          tourney.push({date:this.$store.state.tickSold[x][i].date.split('T')[0],boutique:this.$store.state.tickSold[x][i].shop,nbPlayers:this.$store.state.tickSold[x][i].players,type:this.$store.state.tickSold[x][i].type,results:'coming soon'})
+          tourney.push({date:this.$store.state.tickSold[x][i].date.split('T')[0],boutique:this.$store.state.tickSold[x][i].shop,nbPlayers:this.$store.state.tickSold[x][i].players,type:this.$store.state.tickSold[x][i].type,results:this.$store.state.tickSold[x][i].id})
         }
       }
       return tourney;
