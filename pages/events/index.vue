@@ -23,7 +23,7 @@
         <td class="text-xs-center">{{ item.boutique }}</td>
         <td class="text-xs-center">{{ item.nbPlayers }}</td>
         <td class="text-xs-center">{{ item.type }}</td>
-        <td class="text-xs-center"><nuxt-link :to="{name:'events-results', params: {results: item.results}}">{{ item.results }}</nuxt-link></td>
+        <td class="text-xs-center"><!--<nuxt-link :to="{name:'events-results', params: {results: item.results}}">-->{{ item.results }}<!--</nuxt-link>--></td>
 
       </template>
     </v-data-table>
