@@ -9,14 +9,10 @@
           />
         </template>
         <template slot="items" slot-scope="{ item }">
-          <td class="text-xs-center">{{ item.round }}</td>
+          <td class="text-xs-center">{{ item.name }}</td>
           <td class="text-xs-center">{{ item.dci }}</td>
-          <td class="text-xs-center">{{ item.opponent }}</td>
-          <td class="text-xs-center">{{ item.win }}</td>
-          <td class="text-xs-center">{{ item.loss }}</td>
-          <td class="text-xs-center">{{ item.draw }}</td>
-          <td class="text-xs-center">{{ item.outcome }}</td>
-          <td class="text-xs-center">{{ item.top8 }}</td>
+          <td class="text-xs-center">{{ item.ppalm }}</td>
+          <td class="text-xs-center">{{ item.result }}</td>
         </template>
       </v-data-table>
     </section>
@@ -33,38 +29,16 @@
 export default {
   computed: {
     tourneyData() {
-      let alpha = this.$store.state.tickSold
+      let alpha = this.$store.state.globalStandings
       let tourney = []
-      for (var x in alpha) {
-        for (var i = 0; i < this.$store.state.tickSold[x].length; i++) {
-          if (
-            this.$store.state.tickSold[x][i].id == this.$route.params.results
-          ) {
-            for (
-              var j = 0;
-              j < this.$store.state.tickSold[x][i].matches.length;
-              j++
-            ) {
-              for (
-                var gamma = 0;
-                gamma < this.$store.state.tickSold[x][i].matches[j].length;
-                gamma++
-              ) {
-                tourney.push({
-                  round: this.$store.state.tickSold[x][i].matches[j][gamma]
-                    .round,
-                  dci: this.$store.state.tickSold[x][i].matches[j][gamma].dci,
-                  opponent: this.$store.state.tickSold[x][i].matches[j][gamma]
-                    .opponent,
-                  win: this.$store.state.tickSold[x][i].matches[j][gamma].win,
-                  loss: this.$store.state.tickSold[x][i].matches[j][gamma].loss,
-                  draw: this.$store.state.tickSold[x][i].matches[j][gamma].draw,
-                  outcome: this.$store.state.tickSold[x][i].matches[j][gamma]
-                    .outcome,
-                  top8: this.$store.state.tickSold[x][i].matches[j][gamma].top8,
-                })
-              }
-            }
+      let tournamentNumber = this.$route.params.results
+      for(let x in alpha){
+        let points = alpha[x].leagues[0].results[tournamentNumber]
+        if(points !== undefined){
+          if(points.top8 !== undefined){
+            tourney.push({name:alpha[x].name,dci:alpha[x].dci,ppalm:points.ppalm,result:points.top8})
+          }else{
+            tourney.push({name:alpha[x].name,dci:alpha[x].dci,ppalm:points.ppalm,result:points.pmatch})
           }
         }
       }
@@ -75,8 +49,8 @@ export default {
     headers: [
       {
         sortable: true,
-        text: 'Round',
-        value: 'round',
+        text: 'Name',
+        value: 'name',
       },
       {
         sortable: true,
@@ -85,33 +59,13 @@ export default {
       },
       {
         sortable: true,
-        text: 'Opponent',
-        value: 'opponent',
+        text: 'Ppalm',
+        value: 'ppalm',
       },
       {
         sortable: true,
-        text: 'Win',
-        value: 'win',
-      },
-      {
-        sortable: true,
-        text: 'Loss',
-        value: 'loss',
-      },
-      {
-        sortable: true,
-        text: 'Draw',
-        value: 'draw',
-      },
-      {
-        sortable: true,
-        text: 'Outcome',
-        value: 'outcome',
-      },
-      {
-        sortable: true,
-        text: 'TOP8',
-        value: 'top8',
+        text: 'Result',
+        value: 'result',
       },
     ],
     items: [],
