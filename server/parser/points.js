@@ -2,6 +2,14 @@ const distribution = require('./distribution')
 
 function calculatePoints(matches, nbPlayers, nbSwiss, top8, type, tid) {
   const distSwiss = distribution.swiss.find(i => i.nbRound === nbSwiss)
+ 
+  let top = false
+  if ((matches.length - nbSwiss) == 2) {
+    top = 4
+  }
+  if ((matches.length - nbSwiss) == 3) {
+    top = 8
+  }
 
   let qualifierBonus = 1
   if (type === 'q') {
@@ -51,7 +59,7 @@ function calculatePoints(matches, nbPlayers, nbSwiss, top8, type, tid) {
     return player
   })
 
-  if (top8) {
+  if (top==8) {
     const top8Distribution = distribution.top8.find(
       i => nbPlayers >= i.from && nbPlayers <= i.to,
     )
@@ -76,6 +84,44 @@ function calculatePoints(matches, nbPlayers, nbSwiss, top8, type, tid) {
               }
               break
             case nbSwiss + 3:
+              if (match.outcome === 'L') {
+                points[index].tournaments[tid].ppalm =
+                  top8Distribution.points[1] + qualifierBonus * 2
+                points[index].tournaments[tid].top8 = '2'
+              }
+              if (match.outcome === 'W') {
+                points[index].tournaments[tid].ppalm =
+                  top8Distribution.points[0] + qualifierBonus * 2
+                points[index].tournaments[tid].top8 = '1'
+              }
+              break
+          }
+        })
+      }
+      return points
+    }, points)
+
+    return pointsWithTop8
+  }
+
+  if (top==4) {
+    const top8Distribution = distribution.top8.find(
+      i => nbPlayers >= i.from && nbPlayers <= i.to,
+    )
+    const pointsWithTop8 = matches.reduce((points, round) => {
+      if (round[0].top8) {
+        round.forEach(match => {
+          const thisPlayer = match.dci
+          const index = points.findIndex(player => player.dci === thisPlayer)
+          switch (parseInt(match.round)) {
+            case nbSwiss + 1:
+              if (match.outcome === 'L') {
+                points[index].tournaments[tid].ppalm =
+                  top8Distribution.points[2] + qualifierBonus * 2
+                points[index].tournaments[tid].top8 = '3 - 4'
+              }
+              break
+            case nbSwiss + 2:
               if (match.outcome === 'L') {
                 points[index].tournaments[tid].ppalm =
                   top8Distribution.points[1] + qualifierBonus * 2
