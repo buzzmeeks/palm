@@ -56,7 +56,7 @@ export default {
         }
       }
       tourneytop8.sort((a,b) => (a.result > b.result ? 1 : -1))
-      tourneyNotTop8.sort((a,b) => (a.result > b.result ? 1 : -1))
+      tourneyNotTop8.sort((a,b) => (a.result < b.result ? 1 : -1))
       for(let x in tourneytop8){
         tourney.push(tourneytop8[x])
       }
