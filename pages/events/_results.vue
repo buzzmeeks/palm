@@ -31,41 +31,68 @@ export default {
     tourneyData() {
       let alpha = this.$store.state.globalStandings
       let tourney = []
+      let tourneytop8 = []
+      let tourneyNotTop8 = []
       let tournamentNumber = this.$route.params.results
       for(let x in alpha){
         let points = alpha[x].leagues[0].results[tournamentNumber]
         if(points !== undefined){
+          let dci = "*".repeat(alpha[x].dci.length-4) + alpha[x].dci.substring(alpha[x].dci.length-4,alpha[x].dci.length)
           if(points.top8 !== undefined){
-            tourney.push({name:alpha[x].name,dci:alpha[x].dci,ppalm:points.ppalm,result:points.top8})
+            let resultop8 = ""
+            if (points.top8==1) {
+              resultop8 = "1er"
+            }else if (points.top8==2) {
+              resultop8 = "2ème"
+            }else if(points.top8=="3 - 4"){
+              resultop8 = "3 - 4ème"
+            }else if (points.top8 == "5 - 8"){
+              resultop8 = "5 - 8ème"
+            }
+            tourneytop8.push({name:alpha[x].name,dci:dci,ppalm:points.ppalm,result:resultop8})
           }else{
-            tourney.push({name:alpha[x].name,dci:alpha[x].dci,ppalm:points.ppalm,result:points.pmatch})
+            tourneyNotTop8.push({name:alpha[x].name,dci:dci,ppalm:points.ppalm,result:points.pmatch})
           }
         }
       }
+      tourneytop8.sort((a,b) => (a.result > b.result ? 1 : -1))
+      tourneyNotTop8.sort((a,b) => (a.result < b.result ? 1 : -1))
+      for(let x in tourneytop8){
+        tourney.push(tourneytop8[x])
+      }
+      for (let x in tourneyNotTop8){
+        tourney.push(tourneyNotTop8[x])
+      }
+      console.log(tourney)
       return tourney
     },
   },
   data: () => ({
     headers: [
       {
-        sortable: true,
+        sortable: false,
         text: 'Name',
         value: 'name',
+        align: 'center'
       },
       {
-        sortable: true,
+        sortable: false,
         text: 'DCI',
         value: 'dci',
+        align: 'center'
+
       },
       {
-        sortable: true,
+        sortable: false,
         text: 'Ppalm',
         value: 'ppalm',
+        align: 'center'
       },
       {
-        sortable: true,
+        sortable: false,
         text: 'Result',
         value: 'result',
+        align: 'center'
       },
     ],
     items: [],

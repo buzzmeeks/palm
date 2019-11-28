@@ -60,7 +60,8 @@ export default{
       {
         sortable: true,
         text: 'Date',
-        value: 'date'
+        value: 'date',
+        align: 'center'
       },
       {
         sortable: true,
