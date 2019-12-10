@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-16"?>
+<eventupload>
+<event sanctionnumber="19-11-14381493" eventguid="d10abbb3-3b22-474c-9c5b-082d07c5e733" eventtypecode="FM" orgname="Parkage" coordinator="9113897337" startdate="2019-11-08" postevententry="false" enddate="0001-01-01T00:00:00" format="MODERN" eliminationType="3" iscasualreportonly="False" title="Friday Night Magic Tournament Event" isstarted="True" status="8" batchid="" isplayoff="False" manualmatchround="0" notes="19-11-14381493" numberofrounds="3" playoffstartround="0">
+  <participation>
+    <person id="1319640116" first="Ismaël" last="Boulbaz" middle="" country="FR" />
+    <person id="3102775830" first="Bernard" last="Fournier" middle="" country="FR" />
+    <person id="70031198" first="Nicolas" last="Bergerot" middle="" country="FR" />
+    <person id="4102804815" first="Cedric" last="Leizour" middle="" country="FR" />
+    <person id="8113333781" first="Maxime" last="Gral" middle="" country="FR" />
+    <person id="19855372" first="Adrien" last="Penard" middle="" country="FR" />
+    <person id="1313594771" first="Pierre-erik" last="Lay" middle="" country="FR" />
+    <person id="9511660990" first="Benjamin" last="Houx" middle="" country="FR" />
+    <person id="4112602664" first="Aurelien" last="Lejeau" middle="A" country="FR" />
+    <person id="4030970863" first="Vincent" last="Malenfer-laurenziani" middle="P" country="FR" />
+    <team id="15985" name="Fournier, Bernard" status="2" eliminationround="0">
+      <member position="A" person="3102775830" />
+    </team>
+    <team id="15986" name="Houx, Benjamin" status="2" eliminationround="0">
+      <member position="A" person="9511660990" />
+    </team>
+    <team id="15987" name="Boulbaz, Ismaël" status="2" eliminationround="0">
+      <member position="A" person="1319640116" />
+    </team>
+    <team id="15988" name="Gral, Maxime" status="2" eliminationround="0">
+      <member position="A" person="8113333781" />
+    </team>
+    <team id="15989" name="Lay, Pierre-erik" status="2" eliminationround="0">
+      <member position="A" person="1313594771" />
+    </team>
+    <team id="15990" name="Penard, Adrien" status="2" eliminationround="0">
+      <member position="A" person="19855372" />
+    </team>
+    <team id="15991" name="Leizour, Cedric" status="2" eliminationround="0">
+      <member position="A" person="4102804815" />
+    </team>
+    <team id="15992" name="Bergerot, Nicolas" status="2" eliminationround="0">
+      <member position="A" person="70031198" />
+    </team>
+    <team id="15993" name="Lejeau, Aurelien" status="2" eliminationround="0">
+      <member position="A" person="4112602664" />
+    </team>
+    <team id="15994" name="Malenfer-laurenziani, Vincent" status="2" eliminationround="0">
+      <member position="A" person="4030970863" />
+    </team>
+    <role cd="PL" type="PA">
+      <ref person="70031198" seq="1" />
+      <ref person="4030970863" seq="2" />
+      <ref person="4102804815" seq="3" />
+      <ref person="19855372" seq="4" />
+      <ref person="1319640116" seq="5" />
+      <ref person="1313594771" seq="6" />
+      <ref person="4112602664" seq="7" />
+      <ref person="3102775830" seq="8" />
+      <ref person="9511660990" seq="9" />
+      <ref person="8113333781" seq="10" />
+    </role>
+    <role cd="PL" type="DQ" />
+    <role cd="JG" type="PA" />
+  </participation>
+  <matches>
+    <round number="1" PlayFormat="MODERN" date="2019-11-08T19:26:55" teamformat="false">
+      <match person="3102775830" opponent="1319640116" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="70031198" opponent="4102804815" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+      <match person="19855372" opponent="8113333781" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="1313594771" opponent="9511660990" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="4030970863" opponent="4112602664" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+    </round>
+    <round number="2" PlayFormat="MODERN" date="2019-11-08T20:18:51" teamformat="false">
+      <match person="4030970863" opponent="19855372" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="70031198" opponent="1313594771" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+      <match person="4112602664" opponent="3102775830" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="4102804815" opponent="9511660990" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="1319640116" opponent="8113333781" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+    </round>
+    <round number="3" PlayFormat="MODERN" date="2019-11-08T21:12:31" teamformat="false">
+      <match person="70031198" opponent="4030970863" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="4102804815" opponent="1313594771" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+      <match person="1319640116" opponent="4112602664" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="19855372" opponent="3102775830" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="9511660990" opponent="8113333781" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+    </round>
+  </matches>
+  <seats />
+  <pods>
+    <podround>
+      <round number="1" />
+      <round number="2" />
+      <round number="3" />
+    </podround>
+  </pods>
+  <log>
+    <entry date="2019-07-26T17:04:58" operation="CRE">4.5.9.37545</entry>
+    <entry date="2019-11-08T19:26:55" operation="ROUND">Round Started 1</entry>
+    <entry date="2019-11-08T19:26:57" operation="MATCH">Matches created using match algorithm for round 1.</entry>
+    <entry date="2019-11-08T20:18:51" operation="ROUND">Round Started 2</entry>
+    <entry date="2019-11-08T20:18:53" operation="MATCH">Matches created using match algorithm for round 2.</entry>
+    <entry date="2019-11-08T21:12:31" operation="ROUND">Round Started 3</entry>
+    <entry date="2019-11-08T21:12:33" operation="MATCH">Matches created using match algorithm for round 3.</entry>
+    <entry date="2019-11-08T22:06:08" operation="COM">Tournament Completed</entry>
+    <entry date="2019-11-08T22:06:09" operation="UPL">Results being uploaded.</entry>
+    <entry date="2019-11-08T22:06:09" operation="UPL">Results being uploaded.</entry>
+  </log>
+</event>
+</eventupload>

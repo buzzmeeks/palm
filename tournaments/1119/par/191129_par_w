@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-16"?>
+<eventupload>
+<event sanctionnumber="19-12-15072760" eventguid="d03157c7-3993-453d-8c43-c66fded15bcd" eventtypecode="CAS" orgname="Parkage" coordinator="9113897337" startdate="2019-12-06" postevententry="true" enddate="2019-12-10T17:26:12" format="CASM" eliminationType="3" iscasualreportonly="False" title="Magic Casual Event " isstarted="True" status="8" batchid="" isplayoff="False" manualmatchround="0" notes="19-12-15072760" numberofrounds="2" playoffstartround="0">
+  <participation>
+    <person id="19855372" first="Adrien" last="Penard" middle="" country="FR" />
+    <person id="5313588024" first="Christophe" last="Deboffle" middle="" country="FR" />
+    <person id="2203770792" first="Jean-baptiste" last="Cavaioli" middle="" country="FR" />
+    <person id="1313594771" first="Pierre-erik" last="Lay" middle="" country="FR" />
+    <team id="16124" name="Penard, Adrien" status="2" eliminationround="0">
+      <member position="A" person="19855372" />
+    </team>
+    <team id="16125" name="Deboffle, Christophe" status="2" eliminationround="0">
+      <member position="A" person="5313588024" />
+    </team>
+    <team id="16126" name="Lay, Pierre-erik" status="2" eliminationround="0">
+      <member position="A" person="1313594771" />
+    </team>
+    <team id="16127" name="Cavaioli, Jean-baptiste" status="2" eliminationround="0">
+      <member position="A" person="2203770792" />
+    </team>
+    <role cd="PL" type="PA">
+      <ref person="19855372" seq="1" />
+      <ref person="5313588024" seq="2" />
+      <ref person="1313594771" seq="3" />
+      <ref person="2203770792" seq="4" />
+    </role>
+    <role cd="PL" type="DQ" />
+    <role cd="JG" type="PA" />
+  </participation>
+  <matches>
+    <round number="1" PlayFormat="CASM" date="2019-12-06T00:00:00" teamformat="false">
+      <match person="19855372" opponent="5313588024" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="1313594771" opponent="2203770792" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+    </round>
+    <round number="2" PlayFormat="CASM" date="2019-12-06T00:00:00" teamformat="false">
+      <match person="19855372" opponent="1313594771" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="5313588024" opponent="2203770792" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+    </round>
+  </matches>
+  <seats />
+  <pods>
+    <podround>
+      <round number="1" />
+      <round number="2" />
+    </podround>
+  </pods>
+  <log>
+    <entry date="2019-12-10T17:24:16" operation="CRE">4.5.9.43051</entry>
+    <entry date="2019-12-10T17:25:10" operation="ROUND">Round Started 1</entry>
+    <entry date="2019-12-10T17:25:24" operation="MATCH">Match Created Manually</entry>
+    <entry date="2019-12-10T17:25:40" operation="ROUND">Round Started 2</entry>
+    <entry date="2019-12-10T17:25:51" operation="MATCH">Match Created Manually</entry>
+    <entry date="2019-12-10T17:26:12" operation="COM">Tournament Completed</entry>
+    <entry date="2019-12-10T17:26:13" operation="UPL">Results being uploaded.</entry>
+    <entry date="2019-12-10T17:26:13" operation="UPL">Results being uploaded.</entry>
+  </log>
+</event>
+</eventupload>
