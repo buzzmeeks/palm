@@ -1,0 +1,138 @@
+<event sanctionnumber="19-12-15092318" eventguid="bf64922c-90dc-4ea6-bf40-39fc327b5c1d" eventtypecode="MGNS" orgname="Parkage" coordinator="9113897337" headjudge="5318643720" startdate="2019-12-14" postevententry="false" enddate="2019-12-14T17:52:09" format="MODERN" eliminationType="3" iscasualreportonly="False" title="Magic Tournament " isstarted="True" status="8" batchid="" isplayoff="True" manualmatchround="0" notes="19-12-15092318" numberofrounds="5" playoffstartround="6">
+  <participation>
+    <person id="8207056968" first="Are" last="Maturana" middle="" country="FR" />
+    <person id="2030935938" first="Benjamin" last="Locher" middle="" country="FR" />
+    <person id="6105347739" first="Mickael" last="Teyant" middle="" country="FR" />
+    <person id="2511662997" first="William" last="Widawski" middle="" country="FR" />
+    <person id="1102592519" first="Philip" last="Kahn" middle="" country="FR" />
+    <person id="8300243027" first="Florian" last="Horn" middle="" country="FR" />
+    <person id="4102804815" first="Cedric" last="Leizour" middle="" country="FR" />
+    <person id="19855372" first="Adrien" last="Penard" middle="" country="FR" />
+    <person id="6314849468" first="Guillaume" last="Houdayer" middle="" country="FR" />
+    <person id="4213643160" first="Cecile" last="Denaux" middle="" country="BE" />
+    <person id="5318643720" first="Quentin" last="Debesson" middle="" country="FR" />
+    <team id="16136" name="Kahn, Philip" status="3" eliminationround="4">
+      <member position="A" person="1102592519" />
+    </team>
+    <team id="16137" name="Widawski, William" status="4" eliminationround="5">
+      <member position="A" person="2511662997" />
+    </team>
+    <team id="16138" name="Maturana, Are" status="4" eliminationround="7">
+      <member position="A" person="8207056968" />
+    </team>
+    <team id="16139" name="Horn, Florian" status="4" eliminationround="5">
+      <member position="A" person="8300243027" />
+    </team>
+    <team id="16140" name="Penard, Adrien" status="4" eliminationround="6">
+      <member position="A" person="19855372" />
+    </team>
+    <team id="16141" name="Leizour, Cedric" status="4" eliminationround="5">
+      <member position="A" person="4102804815" />
+    </team>
+    <team id="16142" name="Locher, Benjamin" status="3" eliminationround="4">
+      <member position="A" person="2030935938" />
+    </team>
+    <team id="16143" name="Houdayer, Guillaume" status="4" eliminationround="5">
+      <member position="A" person="6314849468" />
+    </team>
+    <team id="16144" name="Teyant, Mickael" status="2" eliminationround="0">
+      <member position="A" person="6105347739" />
+    </team>
+    <team id="16145" name="Denaux, Cecile" status="4" eliminationround="6">
+      <member position="A" person="4213643160" />
+    </team>
+    <role cd="PL" type="PA">
+      <ref person="6105347739" seq="1" />
+      <ref person="8207056968" seq="2" />
+      <ref person="4213643160" seq="3" />
+      <ref person="19855372" seq="4" />
+      <ref person="8300243027" seq="5" />
+      <ref person="2511662997" seq="6" />
+      <ref person="4102804815" seq="7" />
+      <ref person="2030935938" seq="8" />
+      <ref person="1102592519" seq="9" />
+      <ref person="6314849468" seq="10" />
+    </role>
+    <role cd="PL" type="DQ" />
+    <role cd="JG" type="PA" />
+  </participation>
+  <matches>
+    <round number="1" PlayFormat="MODERN" date="2019-12-14T11:27:59" teamformat="false">
+      <match person="2030935938" opponent="8207056968" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="6105347739" opponent="2511662997" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+      <match person="8300243027" opponent="1102592519" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="19855372" opponent="4102804815" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+      <match person="4213643160" opponent="6314849468" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+    </round>
+    <round number="2" PlayFormat="MODERN" date="2019-12-14T12:34:41" teamformat="false">
+      <match person="6105347739" opponent="2030935938" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+      <match person="4213643160" opponent="8300243027" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="19855372" opponent="6314849468" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+      <match person="8207056968" opponent="1102592519" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+      <match person="4102804815" opponent="2511662997" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+    </round>
+    <round number="3" PlayFormat="MODERN" date="2019-12-14T13:30:42" teamformat="false">
+      <match person="6105347739" opponent="19855372" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+      <match person="4213643160" opponent="2030935938" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+      <match person="8207056968" opponent="8300243027" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="1102592519" opponent="4102804815" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+      <match person="2511662997" opponent="6314849468" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+    </round>
+    <round number="4" PlayFormat="MODERN" date="2019-12-14T14:30:00" teamformat="false">
+      <match person="6105347739" opponent="4213643160" outcome="2" win="0" loss="0" draw="3" winbydrop="False" />
+      <match person="8207056968" opponent="19855372" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="8300243027" opponent="2030935938" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+      <match person="2511662997" opponent="1102592519" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="4102804815" opponent="6314849468" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+    </round>
+    <round number="5" PlayFormat="MODERN" date="2019-12-14T15:21:45" teamformat="false">
+      <match person="6105347739" opponent="4102804815" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+      <match person="19855372" opponent="4213643160" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+      <match person="8300243027" opponent="2511662997" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+      <match person="8207056968" opponent="6314849468" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+    </round>
+    <round number="6" PlayFormat="MODERN" date="2019-12-14T16:22:41" teamformat="false">
+      <match person="6105347739" opponent="19855372" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+      <match person="8207056968" opponent="4213643160" outcome="1" win="2" loss="0" draw="0" winbydrop="False" />
+    </round>
+    <round number="7" PlayFormat="MODERN" date="2019-12-14T17:51:52" teamformat="false">
+      <match person="6105347739" opponent="8207056968" outcome="1" win="2" loss="1" draw="0" winbydrop="False" />
+    </round>
+  </matches>
+  <seats />
+  <pods>
+    <podround>
+      <round number="1" />
+      <round number="2" />
+      <round number="3" />
+      <round number="4" />
+      <round number="5" />
+      <round number="6" />
+      <round number="7" />
+    </podround>
+  </pods>
+  <warnings>
+    <warning code="102" judge="5318643720" person="2030935938" notes="Decklist not matching deck's sideboard + sideboard illegal (17 cards) on list" round="2" penalty="3" />
+    <warning code="102" judge="5318643720" person="6314849468" notes="Card of SB is revealed when dredging at game 1" round="4" penalty="2" />
+  </warnings>
+  <log>
+    <entry date="2019-12-14T11:04:58" operation="CRE">4.5.9.43051</entry>
+    <entry date="2019-12-14T11:27:59" operation="ROUND">Round Started 1</entry>
+    <entry date="2019-12-14T11:28:02" operation="MATCH">Matches created using match algorithm for round 1.</entry>
+    <entry date="2019-12-14T12:34:41" operation="ROUND">Round Started 2</entry>
+    <entry date="2019-12-14T12:34:43" operation="MATCH">Matches created using match algorithm for round 2.</entry>
+    <entry date="2019-12-14T13:30:42" operation="ROUND">Round Started 3</entry>
+    <entry date="2019-12-14T13:30:46" operation="MATCH">Matches created using match algorithm for round 3.</entry>
+    <entry date="2019-12-14T14:30:00" operation="ROUND">Round Started 4</entry>
+    <entry date="2019-12-14T14:30:03" operation="MATCH">Matches created using match algorithm for round 4.</entry>
+    <entry date="2019-12-14T15:21:45" operation="ROUND">Round Started 5</entry>
+    <entry date="2019-12-14T15:27:02" operation="MATCH">Matches created using match algorithm for round 5.</entry>
+    <entry date="2019-12-14T16:22:41" operation="ROUND">Playoff Round Started 6</entry>
+    <entry date="2019-12-14T17:51:45" operation="MATCH">Matches created using match algorithm for round 6.</entry>
+    <entry date="2019-12-14T17:51:52" operation="ROUND">Playoff Round Started 7</entry>
+    <entry date="2019-12-14T17:51:54" operation="MATCH">Matches created using match algorithm for round 7.</entry>
+    <entry date="2019-12-14T17:52:09" operation="COM">Tournament Completed</entry>
+    <entry date="2019-12-14T17:52:14" operation="UPL">Results being uploaded.</entry>
+    <entry date="2019-12-14T17:52:14" operation="UPL">Results being uploaded.</entry>
+  </log>
+</event>
