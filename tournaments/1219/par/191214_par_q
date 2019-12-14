@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<eventupload>
 <event sanctionnumber="19-12-15092318" eventguid="bf64922c-90dc-4ea6-bf40-39fc327b5c1d" eventtypecode="MGNS" orgname="Parkage" coordinator="9113897337" headjudge="5318643720" startdate="2019-12-14" postevententry="false" enddate="2019-12-14T17:52:09" format="MODERN" eliminationType="3" iscasualreportonly="False" title="Magic Tournament " isstarted="True" status="8" batchid="" isplayoff="True" manualmatchround="0" notes="19-12-15092318" numberofrounds="5" playoffstartround="6">
   <participation>
     <person id="8207056968" first="Are" last="Maturana" middle="" country="FR" />
@@ -136,3 +138,4 @@
     <entry date="2019-12-14T17:52:14" operation="UPL">Results being uploaded.</entry>
   </log>
 </event>
+</eventupload>
