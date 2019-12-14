@@ -23,19 +23,19 @@ module.exports = {
     },
     {
       nbRound: 4,
-      points: [0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 8, undefined, 12],
+      points: [0, 0, 0, 0, 1, 2, 2, 3, 4, 5, 8, undefined, 12],
     },
     {
       nbRound: 5,
-      points: [0, 0, 0, 0, 0, 0, 1, 2, 2, 3, 5, 6, 7, 11, undefined, 15],
+      points: [0, 0, 0, 0, 0, 1, 1, 2, 3, 3, 5, 6, 7, 11, undefined, 15],
     },
     {
       nbRound: 6,
-      points: [0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 3, 4, 5, 7, 8, 10, 14, undefined, 18],
+      points: [0, 0, 0, 0, 0, 1, 1, 1, 2, 2, 3, 4, 5, 7, 9, 10, 14, undefined, 18],
     },
     {
       nbRound: 7,
-      points: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 3, 4, 5, 6, 9, 10, 12, 16, undefined, 21],
+      points: [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 2, 3, 3, 4, 5, 6, 9, 11, 12, 16, undefined, 21],
     },
 	{
       nbRound: 8,

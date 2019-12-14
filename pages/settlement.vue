@@ -17,7 +17,7 @@
         <p>
           Chaque tournoi homologué PaLM participera à la fois à nourrir le classement local d’une boutique et le classement général. Un nombre de point sera attribué à chaque joueur en fonction du nombre de joueurs ayant participé à l'événement, le nombre de rondes, et le score final du joueur. Un bonus sera appliqué aux PaLM Qualifiers.
           Les détails de l’attribution des points se trouve
-          <nuxt-link to="https://docs.google.com/spreadsheets/d/e/2PACX-1vR7YicM93FOUYAqjyO36AXhEVOD00lRogHWCG5BiCvy4h0ZkPWN5wpO5K9MkhlaaThQ1jGiiY3sUid7/pubhtml">ici</nuxt-link>.
+          <nuxt-link to="/points">ici</nuxt-link>.
         </p>
         <p>À l’issue de la saison, un minimum de {{nbQualified}} joueurs seront qualifiés pour la finale:</p>
         <ul>
