@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <eventupload>
-<event sanctionnumber="19-03-13676630" eventguid="5e16aba2-c923-478f-99b2-4ac44e080d3f" eventtypecode="MGNS" orgname="Waaagh Taverne" coordinator="8313612085" startdate="2019-03-03" postevententry="false" enddate="0001-01-01T00:00:00" format="MODERN" eliminationType="3" iscasualreportonly="False" title="Magic Tournament" isstarted="True" status="1" batchid="" isplayoff="True" manualmatchround="0" notes="19-04-13852901" numberofrounds="5" playoffstartround="6">
+<event sanctionnumber="19-03-13676630" eventguid="aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaac" eventtypecode="MGNS" coordinator="8313612085" startdate="2019-03-03" postevententry="false" enddate="2019-03-03T22:47:53" format="MODERN">
   <participation>
     <person id="2030935938" first="Benjamin" last="Locher" middle="" country="FR" />
 	<person id="6207061289" first="Julien" last="Flouzat" middle="" country="FR" />
