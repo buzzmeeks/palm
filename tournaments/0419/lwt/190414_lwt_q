@@ -341,18 +341,12 @@
     <entry date="2019-04-14T10:04:34" operation="CRE">4.5.8.659</entry>
     <entry date="2019-04-14T10:55:49" operation="ROUND">Round Started 1</entry>
     <entry date="2019-04-14T10:56:00" operation="MATCH">Matches created using match algorithm for round 1.</entry>
-    <entry date="2019-04-14T10:59:33" operation="MATCH">Matches created using match algorithm for round 1.</entry>
-    <entry date="2019-04-14T11:00:10" operation="MATCH">Matches created using match algorithm for round 1.</entry>
     <entry date="2019-04-14T12:09:58" operation="ROUND">Round Started 2</entry>
     <entry date="2019-04-14T12:10:00" operation="MATCH">Matches created using match algorithm for round 2.</entry>
     <entry date="2019-04-14T13:15:47" operation="ROUND">Round Started 3</entry>
     <entry date="2019-04-14T13:15:48" operation="MATCH">Matches created using match algorithm for round 3.</entry>
     <entry date="2019-04-14T14:25:51" operation="ROUND">Round Started 4</entry>
     <entry date="2019-04-14T14:25:54" operation="MATCH">Matches created using match algorithm for round 4.</entry>
-    <entry date="2019-04-14T15:27:57" operation="ROUND">Round Started 5</entry>
-    <entry date="2019-04-14T15:27:59" operation="MATCH">Matches created using match algorithm for round 5.</entry>
-    <entry date="2019-04-14T15:29:50" operation="MATCH">Matches created using match algorithm for round 5.</entry>
-    <entry date="2019-04-14T15:34:44" operation="ROUND">Round Deleted 5</entry>
     <entry date="2019-04-14T15:35:02" operation="ROUND">Round Started 5</entry>
     <entry date="2019-04-14T15:35:04" operation="MATCH">Matches created using match algorithm for round 5.</entry>
     <entry date="2019-04-14T16:35:33" operation="ROUND">Round Started 6</entry>

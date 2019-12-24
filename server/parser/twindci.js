@@ -6,7 +6,10 @@ const q = require('../db/client')
 const twins = {}
 // -- Mickael T.
 twins['6319625005'] = '6105347739'
+
 twins['6213764007'] = '3115118815'
+// -- Didier C.
+twins['1203217957'] = '1318763279'
 
 function mergeLeagues(l1, l2, all) {
   const mergedLeagues = []

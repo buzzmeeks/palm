@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventupload>
+<event sanctionnumber="19-03-13676630" eventguid="5e16aba2-c923-478f-99b2-4ac44e080d3f" eventtypecode="MGNS" orgname="Waaagh Taverne" coordinator="8313612085" startdate="2019-03-03" postevententry="false" enddate="0001-01-01T00:00:00" format="MODERN" eliminationType="3" iscasualreportonly="False" title="Magic Tournament" isstarted="True" status="1" batchid="" isplayoff="True" manualmatchround="0" notes="19-04-13852901" numberofrounds="5" playoffstartround="6">
+  <participation>
+    <person id="2030935938" first="Benjamin" last="Locher" middle="" country="FR" />
+	<person id="6207061289" first="Julien" last="Flouzat" middle="" country="FR" />
+	<person id="4318830762" first="Antoine" last="Guitton" middle="" country="FR" />
+	<person id="6207061466" first="Soheil" last="" middle="Safaï" country="FR" />
+	<person id="2203770792" first="Jean-baptiste" last="Cavaioli" middle="" country="FR" />
+	<person id="9319072393" first="Julien" last="Simonnot" middle="" country="FR" />
+	<person id="7102499089" first="Victor" last="Durand" middle="" country="FR" />
+	<person id="1313590607" first="Merlin" last="Moret" middle="" country="US" />
+	<person id="4213730421" first="Axel" last="Signargout" middle="" country="FR" />
+	<person id="1203217957" first="Didier" last="Clain" middle="" country="US" />
+
+    <role cd="PL" type="PA"></role>
+    <role cd="PL" type="DQ" />
+    <role cd="JG" type="PA" />
+  </participation>
+  <matches>
+    <round number="1" PlayFormat="MODERN" date="2019-03-03T10:55:49" teamformat="false">
+		<match person="2030935938" opponent="6207061289" outcome="1" win="2" loss="0" draw="0"/>
+    </round>
+    <round number="2" PlayFormat="MODERN" date="2019-03-03T12:09:58" teamformat="false">
+      <match person="2030935938" outcome="5" />
+    </round>
+    <round number="3" PlayFormat="MODERN" date="2019-03-03T13:15:47" teamformat="false">
+		<match person="2030935938" opponent="4318830762" outcome="1" win="2" loss="0" draw="0"/>
+    </round>
+    <round number="4" PlayFormat="MODERN" date="2019-03-03T14:25:51" teamformat="false">
+		<match person="2030935938" opponent="6207061466" outcome="1" win="2" loss="0" draw="0"/>
+    </round>
+    <round number="5" PlayFormat="MODERN" date="2019-03-03T15:35:02" teamformat="false">
+		<match person="2030935938" opponent="2203770792" outcome="1" win="2" loss="0" draw="0"/>
+    </round>
+
+    <round number="6" PlayFormat="MODERN" date="2019-03-03T17:44:29" teamformat="false">
+		<match person="2030935938" opponent="9319072393" outcome="1" win="2" loss="0" draw="0"/>
+		<match person="4213730421" opponent="1203217957" outcome="1" win="2" loss="0" draw="0"/>
+		<match person="7102499089" opponent="9213750995" outcome="1" win="2" loss="0" draw="0"/>
+		<match person="1313590607" opponent="" outcome="1" win="2" loss="0" draw="0"/>
+    </round>
+    <round number="7" PlayFormat="MODERN" date="2019-03-03T18:55:37" teamformat="false">
+		<match person="7102499089" opponent="2030935938" outcome="1" win="2" loss="0" draw="0"/>
+		<match person="1313590607" opponent="4213730421" outcome="1" win="2" loss="0" draw="0"/>
+    </round>
+    <round number="8" PlayFormat="MODERN" date="2019-03-03T19:53:11" teamformat="false">
+		<match person="1313590607" opponent="7102499089" outcome="1" win="2" loss="0" draw="0"/>
+    </round>
+  </matches>
+
+
+  <warnings></warnings>
+  <log>
+    <entry date="2019-03-03T10:04:34" operation="CRE">4.5.8.659</entry>
+    <entry date="2019-03-03T10:55:49" operation="ROUND">Round Started 1</entry>
+    <entry date="2019-03-03T10:56:00" operation="MATCH">Matches created using match algorithm for round 1.</entry>
+    <entry date="2019-03-03T12:09:58" operation="ROUND">Round Started 2</entry>
+    <entry date="2019-03-03T12:10:00" operation="MATCH">Matches created using match algorithm for round 2.</entry>
+    <entry date="2019-03-03T13:15:47" operation="ROUND">Round Started 3</entry>
+    <entry date="2019-03-03T13:15:48" operation="MATCH">Matches created using match algorithm for round 3.</entry>
+    <entry date="2019-03-03T14:25:51" operation="ROUND">Round Started 4</entry>
+    <entry date="2019-03-03T14:25:54" operation="MATCH">Matches created using match algorithm for round 4.</entry>
+    <entry date="2019-03-03T15:35:02" operation="ROUND">Round Started 5</entry>
+    <entry date="2019-03-03T15:35:04" operation="MATCH">Matches created using match algorithm for round 5.</entry>
+    <entry date="2019-03-03T17:44:29" operation="ROUND">Playoff Round Started 7</entry>
+    <entry date="2019-03-03T17:44:32" operation="MATCH">Matches created using match algorithm for round 6.</entry>
+    <entry date="2019-03-03T18:55:37" operation="ROUND">Playoff Round Started 8</entry>
+    <entry date="2019-03-03T18:55:39" operation="MATCH">Matches created using match algorithm for round 7.</entry>
+    <entry date="2019-03-03T19:53:11" operation="ROUND">Playoff Round Started 9</entry>
+    <entry date="2019-03-03T19:53:14" operation="MATCH">Matches created using match algorithm for round 8.</entry>
+  </log>
+</event>
+</eventupload>
