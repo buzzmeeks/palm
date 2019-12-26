@@ -49,7 +49,7 @@
 		<match person="2030935938" opponent="9319072393" outcome="1" win="2" loss="0" draw="0"/>
 		<match person="4213730421" opponent="1203217957" outcome="1" win="2" loss="0" draw="0"/>
 		<match person="7102499089" opponent="9213750995" outcome="1" win="2" loss="0" draw="0"/>
-		<match person="1313590607" opponent="" outcome="1" win="2" loss="0" draw="0"/>
+		<match person="1313590607" opponent="6207061289" outcome="1" win="2" loss="0" draw="0"/>
     </round>
     <round number="7" PlayFormat="MODERN" date="2019-03-03T18:55:37" teamformat="false">
 		<match person="7102499089" opponent="2030935938" outcome="1" win="2" loss="0" draw="0"/>

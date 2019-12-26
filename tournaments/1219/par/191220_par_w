@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<eventupload>
 <event sanctionnumber="19-12-14381499" eventguid="ef361515-9786-4a13-92cc-2f439cc9bef7" eventtypecode="FM" orgname="Parkage" coordinator="9113897337" startdate="2019-12-20" postevententry="false" enddate="0001-01-01T00:00:00" format="MODERN" eliminationType="3" iscasualreportonly="False" title="Friday Night Magic Tournament Event" isstarted="True" status="8" batchid="" isplayoff="False" manualmatchround="0" notes="" numberofrounds="3" playoffstartround="0">
   <participation>
     <person id="6105347739" first="Mickael" last="Teyant" middle="" country="FR" />
@@ -86,3 +88,4 @@
     <entry date="2019-12-20T22:28:58" operation="UPL">Results being uploaded.</entry>
   </log>
 </event>
+</eventupload>
