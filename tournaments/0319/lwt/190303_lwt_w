@@ -13,7 +13,18 @@
 	<person id="4213730421" first="Axel" last="Signargout" middle="" country="FR" />
 	<person id="1203217957" first="Didier" last="Clain" middle="" country="US" />
 
-    <role cd="PL" type="PA"></role>
+    <role cd="PL" type="PA">
+		<ref person="2030935938" seq="1" />
+		<ref person="6207061289" seq="2" />
+		<ref person="4318830762" seq="3" />
+		<ref person="6207061466" seq="4" />
+		<ref person="2203770792" seq="5" />
+		<ref person="9319072393" seq="6" />
+		<ref person="7102499089" seq="7" />
+		<ref person="1313590607" seq="8" />
+		<ref person="4213730421" seq="9" />
+		<ref person="1203217957" seq="10" />
+	</role>
     <role cd="PL" type="DQ" />
     <role cd="JG" type="PA" />
   </participation>
