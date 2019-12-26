@@ -49,7 +49,7 @@
 		<match person="2030935938" opponent="9319072393" outcome="1" win="2" loss="0" draw="0"/>
 		<match person="4213730421" opponent="1203217957" outcome="1" win="2" loss="0" draw="0"/>
 		<match person="7102499089" opponent="9213750995" outcome="1" win="2" loss="0" draw="0"/>
-		<match person="1313590607" opponent="6207061289" outcome="1" win="2" loss="0" draw="0"/>
+		<match person="1313590607" opponent="" outcome="1" win="2" loss="0" draw="0"/>
     </round>
     <round number="7" PlayFormat="MODERN" date="2019-03-03T18:55:37" teamformat="false">
 		<match person="7102499089" opponent="2030935938" outcome="1" win="2" loss="0" draw="0"/>
@@ -74,11 +74,11 @@
     <entry date="2019-03-03T14:25:54" operation="MATCH">Matches created using match algorithm for round 4.</entry>
     <entry date="2019-03-03T15:35:02" operation="ROUND">Round Started 5</entry>
     <entry date="2019-03-03T15:35:04" operation="MATCH">Matches created using match algorithm for round 5.</entry>
-    <entry date="2019-03-03T17:44:29" operation="ROUND">Playoff Round Started 7</entry>
+    <entry date="2019-03-03T17:44:29" operation="ROUND">Playoff Round Started 6</entry>
     <entry date="2019-03-03T17:44:32" operation="MATCH">Matches created using match algorithm for round 6.</entry>
-    <entry date="2019-03-03T18:55:37" operation="ROUND">Playoff Round Started 8</entry>
+    <entry date="2019-03-03T18:55:37" operation="ROUND">Playoff Round Started 7</entry>
     <entry date="2019-03-03T18:55:39" operation="MATCH">Matches created using match algorithm for round 7.</entry>
-    <entry date="2019-03-03T19:53:11" operation="ROUND">Playoff Round Started 9</entry>
+    <entry date="2019-03-03T19:53:11" operation="ROUND">Playoff Round Started 8</entry>
     <entry date="2019-03-03T19:53:14" operation="MATCH">Matches created using match algorithm for round 8.</entry>
   </log>
 </event>
