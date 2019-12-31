@@ -9,7 +9,7 @@ twins['7319049910'] = '7318427304'
 // -- Emmanuel Bernuau
 twins['79867526'] = '5079867526'
 // -- Marc Bisor
-twins['4318910071' = '6318416296'
+twins['4318910071'] = '6318416296'
 // -- Constantin Bône
 twins['9318768663'] = '3300094230'
 // -- Philippe Briand
