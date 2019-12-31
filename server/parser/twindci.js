@@ -6,22 +6,24 @@ const q = require('../db/client')
 const twins = {}
 // -- Emmanuel Bernuau
 twins['79867526'] = '5079867526'
-// -- Mickael Teyant
-twins['6319625005'] = '6105347739'
-// -- Anthony Fernandez
-twins['6213764007'] = '3115118815'
-// -- Didier C.
+// -- Ridley Campbell
+twins['1319749987'] = '8318417265'
+// -- Didier Clain
 twins['1203217957'] = '1318763279'
-// -- Antoine Guitton
-twins['431830762'] = '4318830762'
-// -- Mael Nicolas
-twins['631876513'] = '6318763513'
-twins['2318418147'] = '6318763513'
 // --David Coronel
 twins['6318418146'] = '3313601443'
+// -- Anthony Fernandez
+twins['6213764007'] = '3115118815'
+// -- Antoine Guitton
+twins['431830762'] = '4318830762'
 // --Merlin Moret
 twins['5318416321'] = '1313590607'
 twins['2030933551'] = '1313590607'
+// -- Mael Nicolas
+twins['631876513'] = '6318763513'
+twins['2318418147'] = '6318763513'
+// -- Mickael Teyant
+twins['6319625005'] = '6105347739'
 // --Taeyon Um
 twins['1319667605'] = '6318412140'
 
