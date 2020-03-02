@@ -27,8 +27,9 @@ if (!options.all) {
   bluebird
     .resolve(tournaments)
     .mapSeries(t => {
-      const shop = t.substring(t.length - 5, t.length - 2)
-      const type = t.substring(t.length - 1)
+      const shop = t.substring(t.length - 7, t.length - 4)
+      const type = t.substring(t.length - 3)
+	  const format = t.substring(t.length -1)
       if (type !== 'x') {
         return parser(shop, type, t)
       }
