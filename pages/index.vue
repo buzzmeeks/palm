@@ -37,6 +37,9 @@ export default {
     shops() {
       return this.$store.state.shops
     },
+	shops_modern() {
+		return this.$store.state.shops_modern
+	},
     nbQualified() {
       return this.$store.state.nbQualified
     }
