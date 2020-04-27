@@ -4,37 +4,13 @@ export const actions = {
   // This action is called by nuxt server side and is waited for render the page
   async nuxtServerInit({ commit }, context) {
     const ranking = await axios.get('http://localhost:3001/api/ranking')
-    const nbTournaments = await axios.get(
-      'http://localhost:3001/api/numberOfTournaments',
-    )
-    const nbTournamentsQ = await axios.get(
-      'http://localhost:3001/api/numberOfQualifierTournaments',
-    )
-    const nbDCI = await axios.get('http://localhost:3001/api/countDCI')
-    const ticketSold = await axios.get('http://localhost:3001/api/tournaments')
     commit('setRankings', ranking.data)
-    commit('setNbTour', nbTournaments.data)
-    commit('setNbTourQ', nbTournamentsQ.data)
-    commit('setNbDCI', nbDCI.data)
-    commit('setTicketSold', ticketSold.data)
   },
 }
 
 export const mutations = {
   setRankings(state, ranking) {
     state.globalStandings = ranking
-  },
-  setNbTour(state, nbTournaments) {
-    state.nbtour = nbTournaments
-  },
-  setNbTourQ(state, nbTournamentsQ) {
-    state.nbtourq = nbTournamentsQ
-  },
-  setNbDCI(state, nbDCI) {
-    state.nbDCI = nbDCI
-  },
-  setTicketSold(state, ticketSold) {
-    state.tickSold = ticketSold
   },
 }
 
@@ -49,11 +25,28 @@ export const state = () => ({
     { name: 'Uchronies' },
     { name: 'La Waaagh Taverne' },
   ],
+  shops_modern: [
+    { name: 'Magic Bazar' },
+    { name: 'Magic Corporation' },
+    { name: 'Majestik' },
+    { name: 'Troll 2 Jeux' },
+    { name: 'Uchronies' },
+  ],
+  shops_limited: [
+    { name: 'Magic Bazar' },
+    { name: 'Majestik' },
+	{ name: 'Le Repaire du Dragon' },
+    { name: 'Troll 2 Jeux' },
+    { name: 'Uchronies' },
+  ],
+  shops_pioneer: [
+    { name: 'Magic Bazar' },
+    { name: 'Majestik' },
+	{ name: 'Le Repaire du Dragon' },
+    { name: 'Troll 2 Jeux' },
+    { name: 'Uchronies' },
+  ],
   globalStandings: [],
-  nbtour: 0,
-  nbtourq: 0,
-  nbDCI: 0,
-  tickSold: 0,
 })
 
 export const getters = {
